@@ -1,7 +1,7 @@
 <?php
 // stel php in dat deze fouten weergeeft
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
+//ini_set('display_errors', 1);
+//ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 require_once($_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php');
@@ -101,8 +101,8 @@ d($txt);
 																																	if (isset($c['uitverkocht']) and ($c['uitverkocht'] == 1))
 																																		echo '<span class="w3-tag w3-red w3-small">' . $txt['uitverkocht'] . '</span>';
 																																	else echo $c['entree']; ?><br> <?php if (isset($c['details'])) echo '<p class="details">' . stripslashes($c['details']) . '</p>';
-																																}
-																																	?> </div>
+																																								}
+																																									?> </div>
 			<div class="w3-container w3-margin-top">
 				<div class="w3-row-padding">
 					<div class="w3-third">
@@ -116,10 +116,10 @@ d($txt);
 					<div class="w3-third"
 						<?php if (!(isset($c['prijs_red']) and $c['prijs_red'] > 0)) echo 'style="display: none;"'; ?>>
 						<div
-							<?php if (!(isset($c['prijs_red']) and $c['prijs_red'] > 0)) echo 'class="w3-grayscale w3-grey"'; ?>> <?php if (isset($c['txt_red']) and $c['txt_red'] != '') echo '<label class="w3-label">aantal kaarten ' . $c['txt_red'] . ':</label>';
-																																	else echo '<label class="w3-label">' . $txt['CJP'] . '</label>'; ?>
-							<input class="w3-input w3-border aantal"
-								name="aantal_red" type="text" id="aantal_red"
+							<?php if (!(isset($c['prijs_red']) and $c['prijs_red'] > 0)) echo 'class="w3-grayscale w3-grey"'; ?>>
+							<?php if (isset($c['txt_red']) and $c['txt_red'] != '') echo '<label class="w3-label">aantal kaarten ' . $c['txt_red'] . ':</label>';
+											else echo '<label class="w3-label">' . $txt['CJP'] . '</label>'; ?> <input class="w3-input w3-border aantal" name="aantal_red" type="text"
+								id="aantal_red"
 								value="<?php if (isset($aantal_red)) echo $aantal_red; ?>"
 								<?php if (!(isset($c['prijs_red']) and $c['prijs_red'] > 0)) echo 'disabled'; ?>>
 						</div>
