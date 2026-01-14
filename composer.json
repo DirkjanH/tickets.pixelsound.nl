@@ -1,5 +1,5 @@
 {
-	"name": "Bestelsysteem",
+	"name": "djh/bestelsysteem",
 	"minimum-stability": "stable",
 	"description": "dependencies voor bestelsysteem",
 	"license": "proprietary",
