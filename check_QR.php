@@ -1,6 +1,4 @@
 <?php
-require_once('modules/bestelfuncties.php');
-
 // stel php in dat deze fouten weergeeft
 //ini_set('display_errors', 1);
 //ini_set('display_startup_errors', 1);
@@ -8,8 +6,9 @@ error_reporting(E_ALL);
 
 require_once($_SERVER["DOCUMENT_ROOT"].'/vendor/autoload.php');
 
-//Kint::$enabled_mode = true;
-//Kint\ Renderer\ RichRenderer::$folder = false;
+require_once('modules/bestelfuncties.php');
+
+Kint::$enabled_mode = false;
 
 d($_REQUEST);
 
@@ -38,7 +37,8 @@ if ($bestaat_boeking) {
     if ($concert['datum'] == $nu) {
       if (!$al_afgevinkt) {
         exec_query("UPDATE {$tabel_reserveringen} SET verschenen = 1 WHERE `random_id` = '$res'");
-      $message = <<<MESSAGE
+      $message = 
+<<<MESSAGE
         <body class="w3-green w3-center">
             <div class="w3-content w3-panel">
               <h3>Ticketcontrole middels QR codes</h3>
@@ -53,7 +53,8 @@ if ($bestaat_boeking) {
 MESSAGE;
       }
       else {
-      $message = <<<MESSAGE
+      $message = 
+<<<MESSAGE
         <body class="w3-red w3-center">
             <div class="w3-content w3-panel">
               <h3>Ticketcontrole middels QR codes</h3>
@@ -66,7 +67,8 @@ MESSAGE;
       }
   }
 elseif ($concert['datum'] > $nu) {
-        $message = <<<MESSAGE
+        $message = 
+<<<MESSAGE
         <body class="w3-pale-green w3-center">
             <div class="w3-content w3-panel">
               <h3>Het concert is binnenkort!</h3>
@@ -78,7 +80,8 @@ elseif ($concert['datum'] > $nu) {
 MESSAGE;
     }
     elseif ($concert['datum'] < $nu) {
-        $message = <<<MESSAGE
+        $message = 
+<<<MESSAGE
         <body class="w3-orange w3-center">
             <div class="w3-content w3-panel">
                 <h3>Het concert is al geweest!</h3>

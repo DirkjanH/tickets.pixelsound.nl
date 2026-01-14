@@ -1,16 +1,15 @@
-<?php 
+<?php
 // stel php in dat deze fouten weergeeft
 //ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-require_once($_SERVER["DOCUMENT_ROOT"].'/vendor/autoload.php');
+require_once($_SERVER["DOCUMENT_ROOT"].'/../vendor/autoload.php');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 
-Kint::$enabled_mode = false; //($_SERVER['REMOTE_ADDR'] === '83.85.191.103');
+Kint::$enabled_mode = false; // ($_SERVER['REMOTE_ADDR'] === '83.85.191.103');
 
 require_once( 'modules/module_kaartverkoop.php' );
 
@@ -24,7 +23,7 @@ d($txt);
 	<meta charset="utf-8">
 	<title>Reserveer kaarten</title>
 	<link href="<?php echo $css; ?>" rel="stylesheet">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+	<link rel="icon" type="image/png" href=<?php echo $favicon; ?>>
 </head>
 
 <body>

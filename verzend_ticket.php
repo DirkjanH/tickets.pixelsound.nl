@@ -1,20 +1,22 @@
 <?php
-require_once( 'modules/bestelfuncties.php' );
-
 // stel php in dat deze fouten weergeeft
 //ini_set('display_errors', 1);
 //ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-require_once($_SERVER["DOCUMENT_ROOT"].'/vendor/autoload.php');
+require_once('modules/bestelfuncties.php');
 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\SMTP;
 use chillerlan\QRCode\{QRCode, QROptions};
+use chillerlan\QRCode\Data\QRMatrix;
+use chillerlan\QRCode\Output\QROutputInterface;
 use Pelago\Emogrifier\CssInliner;
 
 Kint::$enabled_mode = false; //($_SERVER['REMOTE_ADDR'] === '83.85.191.103');
+
+//$_POST['id'] = 'tr_nin6sbyvvw'; // TEST
 
 if (isset($_POST['id']) AND $_POST['id'] != '') $mollie_id = $_POST['id'];
 	elseif (isset($_GET['mollie_id']) AND $_GET['mollie_id'] != '') $mollie_id = $_GET['mollie_id'];
@@ -46,6 +48,8 @@ if (!is_null($bestaat_boeking) AND $bestaat_boeking == true) {
 				d($reservering_query, $reservering);
 
 				$concert = select_query("SELECT * FROM {$tabel_concerten} WHERE concertId = {$reservering['concertId']};", 1);
+				
+				setlocale(LC_ALL, 'nl_NL');
 
 				$datumentijd = strftime("%A %e %B %Y, aanvang %H:%M", strtotime($concert['datum'].' '.$concert['tijd']));
 
@@ -90,7 +94,27 @@ if (!is_null($bestaat_boeking) AND $bestaat_boeking == true) {
 
 				$message .= "<p>Met muzikale groet,\n\n<br><br>{$organisator}</p>\n<br>";
 
-				$qrcode = (new QRCode)->render($url.'check_QR.php?res='.$reservering['random_id']);
+				$QRoptions = new QROptions;
+					$QRoptions->outputType          = QROutputInterface::GDIMAGE_PNG;
+					$QRoptions->quality             = 50;
+					// the size of one qr module in pixels
+					$QRoptions->scale               = 4;
+					$QRoptions->keepAsSquare        = [
+						QRMatrix::M_FINDER_DARK,
+						QRMatrix::M_FINDER_DOT,
+						QRMatrix::M_ALIGNMENT_DARK,
+					];
+					$QRoptions->moduleValues        = [
+						QRMatrix::M_FINDER_DARK    => '#A71111', // dark (true)
+						QRMatrix::M_FINDER_DOT     => '#A71111', // finder dot, dark (true)
+						QRMatrix::M_FINDER         => '#FFBFBF', // light (false)
+						QRMatrix::M_ALIGNMENT_DARK => '#A70364',
+						QRMatrix::M_ALIGNMENT      => '#FFC9C9',
+						QRMatrix::M_VERSION_DARK   => '#650098',
+						QRMatrix::M_VERSION        => '#E0B8FF',
+					];					
+
+				$qrcode = (new QRCode($QRoptions))->render($url.'check_QR.php?res='.$reservering['random_id']);
 				$file = fopen("qrcode.png", "w");
 				$base64 = explode(',', $qrcode);
 				fwrite($file, base64_decode($base64[1]));
@@ -149,9 +173,9 @@ if (!is_null($bestaat_boeking) AND $bestaat_boeking == true) {
 	$mail->Username = $mail_username;
 	$mail->Password = $mail_password;
 	//If SMTP requires TLS encryption then set it
-	$mail->SMTPSecure = "tls";
+	//$mail->SMTPSecure = "tls";
 	//Set TCP port to connect to 
-	$mail->Port = 587;
+	//$mail->Port = 587;
 
 	$mail->CharSet = "UTF-8";
 	$mail->Timeout = 300;
@@ -163,7 +187,7 @@ if (!is_null($bestaat_boeking) AND $bestaat_boeking == true) {
 	//Send HTML or Plain Text email
 	$mail->isHTML( true );
 	if ($gelukt) {
-		$mail->AddEmbeddedImage('qrcode.png', "qrcode");
+		$mail->AddEmbeddedImage("qrcode.png", 'qrcode');
 		$message .= '<p>Toon deze QR code bij de kassa:<br><img class="w3-center" src="cid:qrcode" alt ="QR-code"></p>';
 	}
 	$mail->Body = $message;
@@ -179,7 +203,6 @@ if (!is_null($bestaat_boeking) AND $bestaat_boeking == true) {
 else exit('Deze boeking bestaat niet in de tabel.<br');
 ?>
 
-
 <!doctype html>
 <html>
 <head>
@@ -187,11 +210,13 @@ else exit('Deze boeking bestaat niet in de tabel.<br');
 	<meta charset="utf-8">
 	<link href="<?php echo $css; ?>" rel="stylesheet" type="text/css">
 	<link rel="icon" type="image/png" href=<?php echo $favicon; ?>>
-    <title>Bestelling kaarten</title>
+	<title>Bestelling kaarten</title>
 </head>
+
 <body class="w3-gray">
-<div class="w3-content">
-	<?php echo($message);?>
-</div>
+	<div class="w3-content w3-panel w3-white"> <?php echo($message);
+		if ($gelukt) printf('<img src="%s" alt="QR Code"/>', 'qrcode.png');
+		?> 
+	</div>
 </body>
 </html>

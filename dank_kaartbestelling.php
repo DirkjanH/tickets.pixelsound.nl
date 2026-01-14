@@ -4,18 +4,17 @@
 //ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-require_once( 'modules/bestelfuncties.php' );
 require_once($_SERVER["DOCUMENT_ROOT"].'/vendor/autoload.php');
+require_once( 'modules/bestelfuncties.php' );
 
-//Kint::$enabled_mode = true; //($_SERVER['REMOTE_ADDR'] === '83.85.191.103');
-Kint\Renderer\RichRenderer::$folder = false;
+Kint::$enabled_mode = false; //($_SERVER['REMOTE_ADDR'] === '45.82.191.170');
 
 d($_REQUEST);
 
 if (isset($_GET['res']) & is_string($_GET['res'])) {
             $reservering_query = "SELECT * FROM {$tabel_reserveringen} WHERE random_id = '{$_GET['res']}'";
             $reservering = select_query($reservering_query, 1);
-            d($payment, $reservering_query, $reservering);
+            d($reservering_query, $reservering);
 }
 else exit('Dit is geen geldige reserveringscode.');
 
@@ -107,9 +106,7 @@ else exit('Deze boeking bestaat niet');
 
 <body class="w3-gray">
     <div class="w3-content w3-white w3-panel w3-padding-bottom">
-        <?php 
-        echo $message;  
-        ?>
+        <?php echo $message; ?>
     </div>
 </body>
 </html>
