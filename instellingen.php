@@ -4,7 +4,7 @@ $organisator                 = 'Festina Lente & Deventer KamerOrkest';
 $plaats                     = 'Arnhem';
 $afzender                     = 'php@pellegrina.net';
 $aanspreekwijze             = 'jij'; // default: jij;
-$rekeningnummer                = 'IBAN NL91 RABO 0364 6558 52';
+$rekeningnummer                = 'IBAN xxxx-xxxx-xxxx-xxxx';
 $rekeninghouder                = 'Festina Lente';
 $privacybeleid                 = 'Privacydocumentenverklaring.php';
 $tijdslot                    = 0; // minuten voor volgende boeking met zelfde email
@@ -17,14 +17,14 @@ $username                     = 'horringa_db';
 $password                     = '12dirig.';
 
 // Gegevens tabellen
-$tabel_reserveringen         = 'LPPO_reserveringen';
-$tabel_concerten             = 'LPPO_concerten';
-$tabel_CDs                     = 'LPPO_CDs';
-$tabel_CD_bestellingen         = 'LPPO_CD_bestellingen';
+$tabel_reserveringen         = 'FL_reserveringen';
+$tabel_concerten             = 'FL_concerten';
+$tabel_CDs                   = 'FL_CDs';
+$tabel_CD_bestellingen       = '_CD_bestellingen';
 $dank_pagina                 = "dank_kaartbestelling.php";
 $dank_CD                     = "dank_CD.php";
-$webhook                    = "verzend_ticket.php";
-$url                        = "https://projectorkest.pellegrina.net/bestellen/";
+$webhook                     = "verzend_ticket.php";
+$url                         = "https://tickets.pixelsound.nl/";
 
 // Gegevens mail
 $mail_host                     = 'pellegrina.net';
