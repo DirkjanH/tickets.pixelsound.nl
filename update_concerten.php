@@ -24,6 +24,12 @@ d($_REQUEST, $_SESSION);
 $concerten = select_query("SELECT * FROM {$tabel_concerten} WHERE datum LIKE '%%{$_SESSION['zoeknaam']}%%' OR concerttitel LIKE '%%{$_SESSION['zoeknaam']}%%' OR plaats LIKE '%%{$_SESSION['zoeknaam']}%%' ORDER BY datum ASC");
 
 if ((isset($_POST["Toevoegen"])) && ($_POST["Toevoegen"] == "Toevoegen")) {
+	if (isset($_POST['prijs_vol']) && is_numeric($_POST['prijs_vol'])) $_POST['prijs_vol'] = round($_POST['prijs_vol'], 2);
+	else $_POST['prijs_vol'] = 0.00;
+	if (isset($_POST['prijs_red']) && is_numeric($_POST['prijs_red'])) $_POST['prijs_red'] = round($_POST['prijs_red'], 2);
+	else $_POST['prijs_red'] = 0.00;
+	if (isset($_POST['prijs_kind']) && is_numeric($_POST['prijs_kind'])) $_POST['prijs_kind'] = round($_POST['prijs_kind'], 2);
+	else $_POST['prijs_kind'] = 0.00;
 	$insertSQL = sprintf(
 		"INSERT INTO {$tabel_concerten} (concerttitel, details, opmerking_intern, datum, tijd, plaats, prijs_vol,
   prijs_red, prijs_kind, txt_red, txt_kind, online, aantal_plaatsen, uitverkocht) VALUES (%s, %s, %s, %s, %s, %s, %F, %F, %F, %s, %s, %s, %s, %s)",
@@ -33,9 +39,9 @@ if ((isset($_POST["Toevoegen"])) && ($_POST["Toevoegen"] == "Toevoegen")) {
 		quote($_POST['datum'], "date"),
 		quote($_POST['tijd'], "time"),
 		quote($_POST['plaats'], "text"),
-		round($_POST['prijs_vol'], 2),
-		round($_POST['prijs_red'], 2),
-		round($_POST['prijs_kind'], 2),
+		$_POST['prijs_vol'],
+		$_POST['prijs_red'],
+		$_POST['prijs_kind'],
 		quote($_POST['txt_red'], "text"),
 		quote($_POST['txt_kind'], "text"),
 		quote($_POST['online'], "int"),
@@ -128,25 +134,25 @@ d($concerten);
                         size="5"></label>
                 <input name="zoek" type="submit" id="zoek" value="zoek">
                 <input name="wis" type="submit" id="wis" value="wis"> <?php if (isset($concerten) and is_array($concerten)) $aantal_concerten = count($concerten);
-				else $aantal_concerten = 0;
-				if ($aantal_concerten > 0) {
-					echo <<<XXX
+																		else $aantal_concerten = 0;
+																		if ($aantal_concerten > 0) {
+																			echo <<<XXX
 					<p>$aantal_concerten resultaten. Klik een item aan:</p>
 					</div>
 						<div id="navcontainer">
 							<ul id="navlist">
 								<li><a href="#" onclick="w3_close()" class="w3-closenav w3-large w3-hide-large">Close &times;</a></li>
 					XXX;
-					foreach ($concerten as $conc) {
-						$datum = strftime("%a %e %B %Y", strtotime($conc['datum']));
-						$c = $conc['concerttitel'];
-						$href = $_SERVER['PHP_SELF'] . '?concertId=' . $conc['concertId'];
-						echo <<<XXX
+																			foreach ($concerten as $conc) {
+																				$datum = strftime("%a %e %B %Y", strtotime($conc['datum']));
+																				$c = $conc['concerttitel'];
+																				$href = $_SERVER['PHP_SELF'] . '?concertId=' . $conc['concertId'];
+																				echo <<<XXX
 						<li id="active">
 							<a href="$href">$c<br><span class='klein'>($datum)</span></a></li>
 						XXX;
-					}
-				?> </ul> <?php } ?>
+																			}
+																		?> </ul> <?php } ?>
             </div>
         </form>
     </div>
@@ -213,7 +219,7 @@ d($concerten);
                     <td width="100" align="right" nowrap>Aantal plaatsen: </td>
                     <td width="70%"><input name="aantal_plaatsen" type="text"
                             id="aantal_plaatsen" value="<?php
-																											echo $concert['aantal_plaatsen']; ?>" size="10" />
+														echo $concert['aantal_plaatsen']; ?>" size="10" />
                     </td>
                 </tr>
                 <tr valign="baseline">
