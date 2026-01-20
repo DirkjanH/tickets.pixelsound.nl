@@ -1,14 +1,14 @@
 <?php
 // Gegevens organisatie
 $organisator                 = 'Festina Lente & Deventer KamerOrkest';
-$plaats                     = 'Arnhem';
-$afzender                     = 'php@pellegrina.net';
-$aanspreekwijze             = 'jij'; // default: jij;
-$rekeningnummer                = 'IBAN xxxx-xxxx-xxxx-xxxx';
-$rekeninghouder                = 'Festina Lente';
-$privacybeleid                 = 'Privacydocumentenverklaring.php';
-$tijdslot                    = 0; // minuten voor volgende boeking met zelfde email
-$GDPR                         = false; // Geen gegevens kaartbestellers prijsgeven volgens GDPR/AVG
+$plaats                      = 'Arnhem';
+$afzender                    = 'php@pellegrina.net';
+$aanspreekwijze              = 'jij'; // default: jij;
+$rekeningnummer              = 'IBAN NL95 INGB 0007 8490 05';
+$rekeninghouder              = 'Festina Lente';
+$privacybeleid               = 'Privacydocumentenverklaring.php';
+$tijdslot                    = 3; // minuten voor volgende boeking met zelfde email
+$GDPR                        = false; // Geen gegevens kaartbestellers prijsgeven volgens GDPR/AVG
 
 // Gegevens database
 $hostname                     = 'localhost';
@@ -27,9 +27,9 @@ $webhook                     = "verzend_ticket.php";
 $url                         = "https://tickets.pixelsound.nl/";
 
 // Gegevens mail
-$mail_host                     = 'pellegrina.net';
-$mail_username                 = 'dirkjan@pellegrina.net';
-$mail_password                 = 'Dirigent12.';
+$mail_host                   = 'pellegrina.net';
+$mail_username               = 'dirkjan@pellegrina.net';
+$mail_password               = 'Dirigent12.';
 
 // Gegevens css
 $css                         = 'css/bestel.css';

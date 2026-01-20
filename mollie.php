@@ -1,6 +1,5 @@
-<?php 
-require_once($_SERVER["DOCUMENT_ROOT"].'/vendor/autoload.php');
+<?php
+require_once($_SERVER["DOCUMENT_ROOT"] . '/vendor/autoload.php');
 $mollie = new \Mollie\Api\MollieApiClient();
-$mollie->setApiKey("live_PreMvDQJjHmvRUg6jrbyk9djzJ6bwv"); // LIVE  voor Stichting La Pellegrina
-//$mollie->setApiKey("test_DJjWgfbtFxJfMRmjuvrUjMhH6UAkqw"); // TEST voor Stichting La Pellegrina 
-?>
+//$mollie->setApiKey("live_ADwCgu2bEtGWpCVsRh2Ct9CumyddSd"); // LIVE  voor Festina Lente
+$mollie->setApiKey("test_drD7yNgEVNdPAeB2f3xbMJnECFpDaM"); // TEST voor Festina Lente 
