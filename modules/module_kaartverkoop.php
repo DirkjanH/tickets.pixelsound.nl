@@ -89,11 +89,11 @@ if (isset($_POST["submit"]) && $_POST["submit"] == "verzenden") {
 
   // check kaartenbestelling:
   if (isset($_POST['aantal_vol']) && $_POST['aantal_vol'] > 0) $aantal_vol = (int)$_POST['aantal_vol'];
-  else $_POST['aantal_vol'] = 0;
+  else $aantal_vol = 0;
   if (isset($_POST['aantal_red']) && $_POST['aantal_red'] > 0) $aantal_red = (int)$_POST['aantal_red'];
-  else $_POST['aantal_red'] = 0;
+  else $aantal_red = 0;
   if (isset($_POST['aantal_kind']) && $_POST['aantal_kind'] > 0) $aantal_kind = (int)$_POST['aantal_kind'];
-  else $_POST['aantal_kind'] = 0;
+  else $aantal_kind = 0;
 
   if ($aantal_vol > 20 or $aantal_red > 20 or $aantal_kind > 20) {
     $error = true;
@@ -107,7 +107,7 @@ if (isset($_POST["submit"]) && $_POST["submit"] == "verzenden") {
   $euro_red = $concert[$_POST['concertId']]['euro_red'];
   $euro_kind = $concert[$_POST['concertId']]['euro_kind'];
   $dag = $concert[$_POST['concertId']]['dag'];
-  if (!($aantal_vol > 0 or $aantal_red > 0)) {
+  if (!($aantal_vol > 0 or $aantal_red > 0 or $aantal_kind > 0)) {
     $error = true;
     $fout .= "   <li>{$txt['fout_kaarten']}</li>\n";
   }
