@@ -1540,13 +1540,13 @@
     <p class="c0"><span class="c4"></span>
     </p>
     <ol class="c8 lst-kix_list_1-1" start="2">
-        <li class="c2"><span class="c1">Gegevens die voor ieder koorlid
+        <li class="c2"><span class="c1">Gegevens die voor ieder ensemblelid
                 zichtbaar zijn &nbsp;</span>
         </li>
     </ol>
-    <p class="c6 c7"><span class="c4">Voor ieder koorlid is op het afgeschermde
-            gedeelte van de website een adressenlijst beschikbaar met daarop van
-            alle koorleden vermeld:</span>
+    <p class="c6 c7"><span class="c4">Voor ieder ensemblelid is op het
+            afgeschermde gedeelte van de website een adressenlijst beschikbaar
+            met daarop van alle ensembleleden vermeld:</span>
     </p>
     <ul class="c8 lst-kix_list_6-0 start">
         <li class="c2"><span class="c4">Voor- en achternaam </span>
@@ -1639,11 +1639,11 @@
     <p class="c3"><span class="c4">Tevens kan het door derden en eigen mensen
             maken van foto&rsquo;s en dit plaatsen op de eigen </span>
     </p>
-    <p class="c3"><span class="c4">website (of die van het koor) of social media
-            niet gezien worden als een inbreuk op de privacy.</span>
+    <p class="c3"><span class="c4">website (of die van het ensemble) of social
+            media niet gezien worden als een inbreuk op de privacy.</span>
     </p>
     <p class="c3"><span class="c4">Dit hoort bij het lidmaatschap van een
-            openbaar optredend koor.</span>
+            openbaar optredend ensemble.</span>
     </p>
     <p class="c0"><span class="c4"></span>
     </p>
@@ -1670,7 +1670,7 @@
             be&euml;indigen van het lidmaatschap of anders gedurende de
             uiterlijke termijn welke van rechts- en overheidswege is bepaald in
             het kader van controle en toezicht op de financi&euml;le
-            administratie van het koor. Nadat de bewaartermijn is verstreken
+            administratie van het ensemble. Nadat de bewaartermijn is verstreken
             worden jouw gegevens verwijderd.</span>
     </p>
     <p class="c0"><span class="c4"></span>
@@ -1735,7 +1735,7 @@
             wijziging tegen te gaan. Als jij het idee hebt dat jouw gegevens
             toch niet goed beveiligd zijn of er aanwijzingen zijn van misbruik,
             neem dan contact op met het bestuur via de daartoe ge&euml;igende
-            wegen binnen het koor.</span>
+            wegen.</span>
     </p>
 </body>
 </html>
