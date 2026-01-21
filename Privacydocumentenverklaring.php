@@ -1,4 +1,4 @@
-<?php require_once('bestelfuncties.php'); ?>
+<?php require_once('modules/bestelfuncties.php'); ?>
 <!DOCTYPE HTML>
 <html>
 <head>
