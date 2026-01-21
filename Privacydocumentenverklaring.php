@@ -1493,7 +1493,7 @@
     <p class="c0"><span class="c4"></span>
     </p>
     <p class="c6"><span class="c4">Het bestuur van <?php echo $organisator; ?>,
-            veder te noemen de organisator, is verantwoordelijk voor de
+            verder te noemen de organisator, is verantwoordelijk voor de
             verwerking van persoonsgegevens zoals weergegeven in deze
             privacyverklaring.</span>
     </p>
