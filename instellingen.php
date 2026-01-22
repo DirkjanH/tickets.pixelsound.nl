@@ -1,6 +1,6 @@
 <?php
 // Gegevens organisatie
-$organisator                 = 'Festina Lente & Deventer KamerOrkest';
+$organisator                 = 'Festina Lente & Deventer Kamer Orkest';
 $plaats                      = 'Arnhem';
 $afzender                    = 'php@pellegrina.net';
 $aanspreekwijze              = 'jij'; // default: jij;
