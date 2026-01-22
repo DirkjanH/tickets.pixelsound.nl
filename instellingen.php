@@ -1,7 +1,7 @@
 <?php
 // Gegevens organisatie
 $organisator                 = 'Festina Lente & Deventer Kamer Orkest';
-$logo_url                    = 'images/logo_festina_lente_deventer_kamerorkest.png';
+$logo_url                    = 'images/FL & DKO.jpg';
 $plaats                      = 'Arnhem';
 $afzender                    = 'php@pellegrina.net';
 $aanspreekwijze              = 'jij'; // default: jij;
