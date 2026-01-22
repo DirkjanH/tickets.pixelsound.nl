@@ -45,67 +45,65 @@ if (isset($_POST['sort']) and $_POST['sort'] == 'via') $_SESSION['sort'] = 'publ
 ?>
 <!DOCTYPE HTML>
 <html>
-
 <head>
-	<title>Reserveringen per concert</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="utf-8">
-	<meta http-equiv="refresh" content="500; url=<?php echo $_SERVER['../bestelsysteem/PHP_SELF']; // refresh iedere 500 seconden 
+    <title>Reserveringen per concert</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="500; url=<?php echo $_SERVER['../bestelsysteem/PHP_SELF']; // refresh iedere 500 seconden 
 													?>">
-	<link href="<?php echo $css; ?>" rel="stylesheet" type="text/css">
-	<link rel="icon" type="image/png" href=<?php echo $favicon; ?>>
-	<style type="text/css">
-		tr.verschenen td {
-			background: palegreen;
-		}
-	</style>
-	<SCRIPT TYPE="text/javascript">
-		<!--
-		function toggleCheckbox(id) {
-			var Checkbox = document.getElementById("aanw_" + id);
-			document.formulier.toggle.value = id;
-			document.formulier.submit();
-			if (Checkbox.checked == true) {
-				Checkbox.checked = true;
-			} else {
-				Checkbox.checked = false;
-			}
-		}
+    <link href="<?php echo $css; ?>" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/png" href=<?php echo $favicon; ?>>
+    <style type="text/css">
+    tr.verschenen td {
+        background: palegreen;
+    }
+    </style>
+    <SCRIPT TYPE="text/javascript">
+    <!--
+    function toggleCheckbox(id) {
+        var Checkbox = document.getElementById("aanw_" + id);
+        document.formulier.toggle.value = id;
+        document.formulier.submit();
+        if (Checkbox.checked == true) {
+            Checkbox.checked = true;
+        } else {
+            Checkbox.checked = false;
+        }
+    }
 
-		function selecteer(waarde) {
-			document.formulier.select.value = waarde;
-			document.formulier.submit();
-		}
+    function selecteer(waarde) {
+        document.formulier.select.value = waarde;
+        document.formulier.submit();
+    }
 
-		function sorteer(waarde) {
-			document.formulier.sort.value = waarde;
-			document.formulier.submit();
-		}
-		-->
-	</SCRIPT>
+    function sorteer(waarde) {
+        document.formulier.sort.value = waarde;
+        document.formulier.submit();
+    }
+    -->
+    </SCRIPT>
 </head>
-
 <body>
-	<div class="w3-content w3-margin-top" style="width: 100%;">
-		<div class="w3-white w3-panel w3-card-4">
-			<form action="<?php echo $editFormAction; ?>" method="post"
-				name="formulier" id="formulier">
-				<p>Sorteer op: <label>
-						<input name="s" type="radio" id="res"
-							OnClick="sorteer('reserveringnr')"
-							value="reserveringnr"
-							<?php if ($_SESSION['sort'] == 'reserveringnr') echo 'checked'; ?>>
-						reserveringsnummer</label> &nbsp;&nbsp;| <label>
-						<input OnClick="sorteer('naam')" type="radio" name="s"
-							value="naam" id="naam"
-							<?php if ($_SESSION['sort'] == 'achternaam') echo 'checked'; ?>>
-						achternaam</label> &nbsp;&nbsp;| <label>
-						<input OnClick="sorteer('via')" type="radio" name="s"
-							value="via" id="via"
-							<?php if ($_SESSION['sort'] == 'publiciteit, aanbrenger') echo 'checked'; ?>>
-						aanbrenger</label>
-				</p>
-				<input name="sort" id="sort" type="hidden" value=""> <?php if (is_array($concert) and count($concert) > 0) {
+    <div class="w3-content w3-margin-top" style="width: 100%;">
+        <div class="w3-white w3-panel w3-card-4">
+            <form action="<?php echo $editFormAction; ?>" method="post"
+                name="formulier" id="formulier">
+                <p>Sorteer op: <label>
+                        <input name="s" type="radio" id="res"
+                            OnClick="sorteer('reserveringnr')"
+                            value="reserveringnr"
+                            <?php if ($_SESSION['sort'] == 'reserveringnr') echo 'checked'; ?>>
+                        reserveringsnummer</label> &nbsp;&nbsp;| <label>
+                        <input OnClick="sorteer('naam')" type="radio" name="s"
+                            value="naam" id="naam"
+                            <?php if ($_SESSION['sort'] == 'achternaam') echo 'checked'; ?>>
+                        achternaam</label> &nbsp;&nbsp;| <label>
+                        <input OnClick="sorteer('via')" type="radio" name="s"
+                            value="via" id="via"
+                            <?php if ($_SESSION['sort'] == 'publiciteit, aanbrenger') echo 'checked'; ?>>
+                        aanbrenger</label>
+                </p>
+                <input name="sort" id="sort" type="hidden" value=""> <?php if (is_array($concert) and count($concert) > 0) {
 																			foreach ($concert as $pl) {
 																				$query_aantal = "SELECT sum(aantal_vol) as aantal_vol, sum(aantal_red) as aantal_red, sum(aantal_kind) as aantal_kind FROM {$tabel_reserveringen} 
 	WHERE concertId={$pl['concertId']} AND {$pl['online']} = 1 AND (betaalstatus = 'paid' OR betaalstatus IS NULL)";
@@ -186,6 +184,8 @@ if (isset($_POST['sort']) and $_POST['sort'] == 'via') $_SESSION['sort'] = 'publ
 		<th>Telefoon:</th>
       <th>Email:</th>";
 																				$output .= "<th width=\"1%\">Aantal kaarten vol:</th>";
+																				if (empty($pl['txt_red']) or $pl['txt_red'] == '') $pl['txt_red'] = "gereduceerd";
+																				if (empty($pl['txt_kind']) or $pl['txt_kind'] == '') $pl['txt_kind'] = "kinderen";
 																				if ($pl['prijs_red'] > 0) $output .= "<th width=\"1%\">Aantal kaarten {$pl['txt_red']}:</th>";
 																				if ($pl['prijs_kind'] > 0) $output .= "<th width=\"1%\">Aantal kaarten {$pl['txt_kind']}:</th>";
 																				$output .= "<th>Weet ervan via:</th>
@@ -233,19 +233,18 @@ if (isset($_POST['sort']) and $_POST['sort'] == 'via') $_SESSION['sort'] = 'publ
 																			echo $output;
 																		} else echo 'Momenteel geen concerten in de verkoop.<br>'
 																		?> <p>laatste verversing: <?php echo strftime("%c"); ?> </p>
-				<input name="toggle" id="toggle" type="hidden" value="">
-				<input name="bestelnummer" type="hidden" id="bestelnummer">
-				<input name="bestelling_bewerken" type="hidden"
-					id="bestelling_bewerken">
-				<input name="aantal_vol_bewerken" type="hidden"
-					id="aantal_vol_bewerken">
-				<input name="aantal_red_bewerken" type="hidden"
-					id="aantal_red_bewerken">
-				<input name="aantal_kind_bewerken" type="hidden"
-					id="aantal_kind_bewerken">
-			</form>
-		</div>
-	</div>
+                <input name="toggle" id="toggle" type="hidden" value="">
+                <input name="bestelnummer" type="hidden" id="bestelnummer">
+                <input name="bestelling_bewerken" type="hidden"
+                    id="bestelling_bewerken">
+                <input name="aantal_vol_bewerken" type="hidden"
+                    id="aantal_vol_bewerken">
+                <input name="aantal_red_bewerken" type="hidden"
+                    id="aantal_red_bewerken">
+                <input name="aantal_kind_bewerken" type="hidden"
+                    id="aantal_kind_bewerken">
+            </form>
+        </div>
+    </div>
 </body>
-
 </html>
