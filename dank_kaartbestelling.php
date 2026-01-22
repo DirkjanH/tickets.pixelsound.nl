@@ -29,10 +29,10 @@ if (isset($reservering)) {
 
         if ($reservering['aantal_vol'] == 1) $kaartjes_vol = '1 kaartje à';
         elseif ($reservering['aantal_vol'] > 1) $kaartjes_vol = "{$reservering['aantal_vol']} kaartjes à";
-        if ($reservering['aantal_red'] == 1) $kaartjes_red = '1 kaartje à';
-        elseif ($reservering['aantal_red'] > 1) $kaartjes_red = "{$reservering['aantal_red']} kaartjes à";
-        if ($reservering['aantal_kind'] == 1) $kaartjes_kind = '1 kaartje à';
-        elseif ($reservering['aantal_kind'] > 1) $kaartjes_kind = "{$reservering['aantal_kind']} kaartjes à";
+        if ($reservering['aantal_red'] == 1) $kaartjes_red = "1 kaartje voor {$concert['txt_red']} à";
+        elseif ($reservering['aantal_red'] > 1) $kaartjes_red = "{$reservering['aantal_red']} kaartjes voor {$concert['txt_red']} à";
+        if ($reservering['aantal_kind'] == 1) $kaartjes_kind = "1 kaartje voor {$concert['txt_kind']} à";
+        elseif ($reservering['aantal_kind'] > 1) $kaartjes_kind = "{$reservering['aantal_kind']} kaartjes voor {$concert['txt_kind']} à";
 
         $reservering['euro_totaal'] = euro2($reservering['totaal']);
 
