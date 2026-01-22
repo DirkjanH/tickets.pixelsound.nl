@@ -62,7 +62,7 @@ MESSAGE;
         if ($reservering['aantal_kind'] > 0) $message .= "<li>{$kaartjes_kind} {$concert['euro_kind']}</li>\n";
 
         $message .= <<<MESSAGE
-    <li>\nHet totale verschuldigde bedrag is {$reservering['euro_totaal']}. Dit bedrag heb je reeds betaald via iDeal. In je email ontvang je een concertkaartje. Neem dit SVP mee naar het concert, geprint op papier of op je telefoon. Op dat kaartje staat een QR code. Bij het concert wordt die gescand.</li>\n<li>Deze reservering heeft reserveringsnummer {$reservering['reserveringnr']}</li>\n
+    <li>\nHet totale verschuldigde bedrag is {$reservering['euro_totaal']}. Dit bedrag heb je reeds betaald via iDeal. In je email ontvang je een concertkaartje met een QR code. Bij het concert wordt die gescand. Neem dit SVP mee naar het concert, geprint op papier of op je telefoon.</li>\n<li>Deze reservering heeft reserveringsnummer {$reservering['reserveringnr']}</li>\n
 MESSAGE;
         if (isset($reservering['flyers']) & $reservering['flyers'] == 1) {
             $message .= "<li>Je hebt aangegeven dat je op de hoogte gehouden wilt worden van toekomstige concerten. We zullen je hierover van tijd tot tijd emails sturen.</li>\n";
