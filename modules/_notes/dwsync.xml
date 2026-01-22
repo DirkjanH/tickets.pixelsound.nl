@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
 <file name="bestelfuncties.php" server="www.trajectivoces.net//public_html/" local="129984090885843643" remote="130767175800000000" Dst="-1" />
@@ -50,4 +51,58 @@
 <file name="index.htm" server="ftp.horringa.net//public_html/bestelsysteem/" local="133415068215847630" remote="133415068200000000" Dst="2" />
 <file name="module_betalingen_per_concert.php" server="ftp.horringa.net//public_html/bestelsysteem/" local="133415767097401080" remote="133415766600000000" Dst="2" />
 <file name="module_betalingen_per_concert.php" server="trajectivoces.net//public_html/" local="133445301886594912" remote="133445301600000000" Dst="1" />
+=======
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="bestelfuncties.php" server="www.trajectivoces.net//public_html/" local="129984090885843643" remote="130767175800000000" Dst="-1" />
+<file name="index.htm" server="www.trajectivoces.net//public_html/" local="129738204000000000" remote="130767175800000000" Dst="-1" />
+<file name="module_concert_db.php" server="www.trajectivoces.net//public_html/" local="129759804000000000" remote="130767175800000000" Dst="-1" />
+<file name="module_emails_voor_publiciteit.php" server="www.trajectivoces.net//public_html/" local="129618064200000000" remote="130767175800000000" Dst="-1" />
+<file name="module_kaartverkoop.php" server="www.trajectivoces.net//public_html/" local="130574150400000000" remote="130767175800000000" Dst="-1" />
+<file name="module_overzicht_reserveringen.php" server="www.trajectivoces.net//public_html/" local="129738204000000000" remote="130767175800000000" Dst="-1" />
+<file name="module_zoek_concert.php" server="www.trajectivoces.net//public_html/" local="129738204000000000" remote="130767175800000000" Dst="-1" />
+<file name="bestelfuncties.php" server="www.trajectivoces.nl//public_html/" local="129984090885843643" remote="129738204000000000" Dst="-1" />
+<file name="index.htm" server="www.trajectivoces.nl//public_html/" local="129738204000000000" remote="129738204000000000" Dst="-1" />
+<file name="module_concert_db.php" server="www.trajectivoces.nl//public_html/" local="129759804000000000" remote="129759804000000000" Dst="-1" />
+<file name="module_emails_voor_publiciteit.php" server="www.trajectivoces.nl//public_html/" local="129021048000000000" remote="129021048000000000" Dst="-1" />
+<file name="module_kaartverkoop.php" server="www.trajectivoces.nl//public_html/" local="129738204000000000" remote="129738204000000000" Dst="-1" />
+<file name="module_overzicht_reserveringen.php" server="www.trajectivoces.nl//public_html/" local="129738204000000000" remote="129738204000000000" Dst="-1" />
+<file name="module_zoek_concert.php" server="www.trajectivoces.nl//public_html/" local="129738204000000000" remote="129738204000000000" Dst="-1" />
+<file name="bestelfuncties.php" server="www.pellegrina.nl//subdomains/projectorkest/httpdocs/" local="129466666200000000" remote="129695415000000000" Dst="-1" />
+<file name="module_kaartverkoop.php" server="www.pellegrina.nl//subdomains/projectorkest/httpdocs/" local="129702392384733674" remote="129702355800000000" Dst="-1" />
+<file name="module_concert_db.php" server="www.pellegrina.nl//subdomains/projectorkest/httpdocs/" local="129702379059691525" remote="129702342600000000" Dst="-1" />
+<file name="bestelfuncties.php" server="www.pellegrina.nl//subdomains/ac/httpdocs/" local="129738579442444172" remote="129738543000000000" Dst="-1" />
+<file name="index.htm" server="www.pellegrina.nl//subdomains/ac/httpdocs/" local="129158984816687022" remote="129738148200000000" Dst="-1" />
+<file name="module_concert_db.php" server="www.pellegrina.nl//subdomains/ac/httpdocs/" local="129738596518810884" remote="129738560400000000" Dst="-1" />
+<file name="module_emails_voor_publiciteit.php" server="www.pellegrina.nl//subdomains/ac/httpdocs/" local="129158969812958858" remote="129738148200000000" Dst="-1" />
+<file name="module_kaartverkoop.php" server="www.pellegrina.nl//subdomains/ac/httpdocs/" local="129738615983704213" remote="129738579600000000" Dst="-1" />
+<file name="module_overzicht_reserveringen.php" server="www.pellegrina.nl//subdomains/ac/httpdocs/" local="129158973765974958" remote="129738148200000000" Dst="-1" />
+<file name="module_zoek_concert.php" server="www.pellegrina.nl//subdomains/ac/httpdocs/" local="129158969820559293" remote="129738148200000000" Dst="-1" />
+<file name="module_reserveringen_per_concert.php" server="www.trajectivoces.nl//public_html/" local="130045347425301841" remote="130045311000000000" Dst="-1" />
+<file name="module_reserveringen_per_concert.php" server="www.trajectivoces.net//public_html/" local="130399619060657452" remote="130767175800000000" Dst="-1" />
+<file name="b_drop.png" server="www.trajectivoces.net//public_html/" local="130425867000000000" remote="130767175800000000" Dst="-1" />
+<file name="b_edit.png" server="www.trajectivoces.net//public_html/" local="130425867000000000" remote="130767175800000000" Dst="-1" />
+<file name="bestelfuncties.php" server="www.trajectivoces.net:24//public_html/" local="130766328000000000" remote="130766328000000000" Dst="-1" />
+<file name="module_reserveringen_per_concert.php" server="www.trajectivoces.net:24//public_html/" local="131225752312982025" remote="131225752200000000" Dst="-1" />
+<file name="module_reserveringen_per_concert.php" server="trajectivoces.net//public_html/" local="133446067816446832" remote="133446067800000000" Dst="1" />
+<file name="module_kaartverkoop.php" server="trajectivoces.net//public_html/" local="133420104450000000" remote="133422173400000000" Dst="2" />
+<file name="b_drop.png" server="trajectivoces.net//public_html/" local="131905128040000000" remote="133422173400000000" Dst="2" />
+<file name="b_edit.png" server="trajectivoces.net//public_html/" local="131905128040000000" remote="133422173400000000" Dst="2" />
+<file name="bestelfuncties.php" server="trajectivoces.net//public_html/" local="133416493010000000" remote="133422173400000000" Dst="2" />
+<file name="index.htm" server="trajectivoces.net//public_html/" local="133415068215847630" remote="133422173400000000" Dst="2" />
+<file name="module_concert_db.php" server="trajectivoces.net//public_html/" local="132303966610000000" remote="133422173400000000" Dst="2" />
+<file name="module_emails_voor_publiciteit.php" server="trajectivoces.net//public_html/" local="133415069735207608" remote="133422173400000000" Dst="2" />
+<file name="module_zoek_concert.php" server="trajectivoces.net//public_html/" local="132303087150000000" remote="133422173400000000" Dst="2" />
+<file name="module_overzicht_reserveringen.php" server="trajectivoces.net//public_html/" local="132303783390000000" remote="133422173400000000" Dst="2" />
+<file name="module_kaartverkoop.php" server="ftp.horringa.net//public_html/bestelsysteem/" local="133415268321029366" remote="133415268000000000" Dst="2" />
+<file name="bestelfuncties.php" server="ftp.horringa.net//public_html/bestelsysteem/" local="133411476374006045" remote="133411476000000000" Dst="2" />
+<file name="module_concert_db.php" server="ftp.horringa.net//public_html/bestelsysteem/" local="132303966619102098" remote="132304144800000000" Dst="2" />
+<file name="module_emails_voor_publiciteit.php" server="ftp.horringa.net//public_html/bestelsysteem/" local="133415069735207608" remote="133415069400000000" Dst="2" />
+<file name="module_overzicht_reserveringen.php" server="ftp.horringa.net//public_html/bestelsysteem/" local="132303783396382817" remote="132304054800000000" Dst="2" />
+<file name="module_reserveringen_per_concert.php" server="ftp.horringa.net//public_html/bestelsysteem/" local="133415766660319991" remote="133415766600000000" Dst="2" />
+<file name="module_zoek_concert.php" server="ftp.horringa.net//public_html/bestelsysteem/" local="132303087157654410" remote="132304054800000000" Dst="2" />
+<file name="index.htm" server="ftp.horringa.net//public_html/bestelsysteem/" local="133415068215847630" remote="133415068200000000" Dst="2" />
+<file name="module_betalingen_per_concert.php" server="ftp.horringa.net//public_html/bestelsysteem/" local="133415767097401080" remote="133415766600000000" Dst="2" />
+<file name="module_betalingen_per_concert.php" server="trajectivoces.net//public_html/" local="133445301886594912" remote="133445301600000000" Dst="1" />
+>>>>>>> ef83e72eecde1df5e74048f39a4e89ef042026c5
 </dwsync>
