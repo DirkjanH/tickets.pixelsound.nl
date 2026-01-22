@@ -60,14 +60,17 @@ MESSAGE;
         if ($reservering['aantal_vol'] > 0) $message .= "<li>{$kaartjes_vol} {$concert['euro_vol']}</li>\n";
         if ($reservering['aantal_red'] > 0) $message .= "<li>{$kaartjes_red} {$concert['euro_red']}</li>\n";
         if ($reservering['aantal_kind'] > 0) $message .= "<li>{$kaartjes_kind} {$concert['euro_kind']}</li>\n";
-        if (isset($reservering['flyers']) & $reservering['flyers'] == 1) {
-            $message .= "<li>Je hebt aangegeven dat je op de hoogte gehouden wilt worden van toekomstige concerten. We zullen je hierover van tijd tot tijd emails sturen.</li>\n";
         }
         $message .=
             <<<MESSAGE
 
-    <li>Deze reservering heeft reserveringsnummer {$reservering['reserveringnr']}</li>\n<li>\nHet totale verschuldigde bedrag is {$reservering['euro_totaal']}. Dit bedrag heb je reeds betaald via iDeal. In je email ontvang je een concertkaartje. Neem dit SVP mee naar het concert, geprint op papier of op je telefoon. Op dat kaartje staat een QR code. Bij het concert wordt die gescand.</li></ul>
+    <li>Deze reservering heeft reserveringsnummer {$reservering['reserveringnr']}</li>\n<li>\nHet totale verschuldigde bedrag is {$reservering['euro_totaal']}. Dit bedrag heb je reeds betaald via iDeal. In je email ontvang je een concertkaartje. Neem dit SVP mee naar het concert, geprint op papier of op je telefoon. Op dat kaartje staat een QR code. Bij het concert wordt die gescand.</li>
 MESSAGE;
+    if (isset($reservering['flyers']) & $reservering['flyers'] == 1) {
+        $message .= "<li>Je hebt aangegeven dat je op de hoogte gehouden wilt worden van toekomstige concerten. We zullen je hierover van tijd tot tijd emails sturen.</li>\n"; }
+
+        $message .= '</ul>'; 
+
         if (isset($reservering['opmerkingen']) & $reservering['opmerkingen'] != "") {
             $reservering['opmerkingen'] = htmlentities(stripslashes($reservering['opmerkingen']));
             $message .= "<p>Je opmerkingen waren: {$reservering['opmerkingen']}</p>\n";
@@ -95,7 +98,6 @@ MESSAGE;
 ?>
 <!doctype html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -103,10 +105,8 @@ MESSAGE;
     <link rel="icon" type="image/png" href="<?php echo $favicon; ?>">
     <title>Dank voor je kaartbestelling</title>
 </head>
-
 <body class="w3-gray">
     <div class="w3-content w3-white w3-panel w3-padding-bottom">
         <?php echo $message; ?> </div>
 </body>
-
 </html>
