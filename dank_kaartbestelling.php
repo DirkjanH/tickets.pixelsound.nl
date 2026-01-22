@@ -44,7 +44,7 @@ if (isset($reservering)) {
             $logo = $url . rawurlencode($logo_url);
             $message =
                 <<<MESSAGE
-    <header class="w3-panel-0"><img src="{$logo}" alt="logo" style="width: 100%; max-width: 600px; height: auto; border: none;"></header>\n
+    <header class="w3-panel-0 w3-center"><img src="{$logo}" alt="logo" style="width: 100%; max-width: 600px; height: auto; border: none;"></header>\n
     MESSAGE;
         } else $message = '';
 
