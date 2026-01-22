@@ -56,10 +56,10 @@ if (isset($reservering)) {
         <li>Naam: {$naam}</li>\n\n
         <li>Gereserveerd voor het concert "<b>{$concert['concerttitel']}</b>" op <b>{$datumentijd}</b>:</li>\n\n
         <ul>
-            <li>$kaartjes_vol {$concert['euro_vol']}</li>\n
 MESSAGE;
+        if ($reservering['aantal_vol'] > 0) $message .= "<li>{$kaartjes_vol} {$concert['euro_vol']}</li>\n";
         if ($reservering['aantal_red'] > 0) $message .= "<li>{$kaartjes_red} {$concert['euro_red']}</li>\n";
-        if ($reservering['aantal_kind'] > 0) $message .= "<li>$kaartjes_kind {$concert['euro_kind']}</li>\n";
+        if ($reservering['aantal_kind'] > 0) $message .= "<li>{$kaartjes_kind} {$concert['euro_kind']}</li>\n";
         if (isset($reservering['flyers']) & $reservering['flyers'] == 1) {
             $message .= "<li>Je hebt aangegeven dat je op de hoogte gehouden wilt worden van toekomstige concerten. We zullen je hierover van tijd tot tijd emails sturen.</li>\n";
         }
