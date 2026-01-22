@@ -58,7 +58,6 @@ if (isset($reservering)) {
         <ul>
             <li>$kaartjes_vol {$concert['euro_vol']}</li>\n
 MESSAGE;
-<<<<<<< HEAD
         if ($reservering['aantal_red'] > 0) $message .= "<li>{$kaartjes_red} {$concert['euro_red']}</li>\n";
         if ($reservering['aantal_kind'] > 0) $message .= "<li>$kaartjes_kind {$concert['euro_kind']}</li>\n";
         if (isset($reservering['flyers']) & $reservering['flyers'] == 1) {
@@ -96,6 +95,7 @@ MESSAGE;
 ?>
 <!doctype html>
 <html>
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
@@ -133,6 +133,7 @@ MESSAGE;
                 d($message); } } else exit('Deze boeking bestaat niet'); ?>
                 <!doctype html>
                 <html>
+
                 <head>
                     <meta name="viewport"
                         content="width=device-width, initial-scale=1">
@@ -144,9 +145,11 @@ MESSAGE;
                     ef83e72eecde1df5e74048f39a4e89ef042026c5 <title>Dank voor je
                         kaartbestelling</title>
                 </head>
+
 <body class="w3-gray">
     <div class="w3-content w3-white w3-panel w3-padding-bottom">
         <<<<<<< HEAD <?php echo $message; ?> </div>
 </body> ======= <?php echo $message; ?> </div>
 </body> >>>>>>> ef83e72eecde1df5e74048f39a4e89ef042026c5
+
 </html>
