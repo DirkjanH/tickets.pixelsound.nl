@@ -1,7 +1,7 @@
-<<<<<<< HEAD
 <?php require_once('modules/bestelfuncties.php'); ?>
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <title>Privacy-verklaring</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,1486 +9,1487 @@
     <link href="css/w3.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="<?php echo $favicon; ?>">
     <style type="text/css">
-    @import url('https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLUXza5VhXqVC6o75Eld_V98');
-
-    .lst-kix_list_4-1>li {
-        counter-increment: lst-ctn-kix_list_4-1
-    }
-
-    .lst-kix_list_2-1>li {
-        counter-increment: lst-ctn-kix_list_2-1
-    }
-
-    ol.lst-kix_list_9-0.start {
-        counter-reset: lst-ctn-kix_list_9-0 0
-    }
-
-    .lst-kix_list_8-1>li {
-        counter-increment: lst-ctn-kix_list_8-1
-    }
-
-    ol.lst-kix_list_8-2.start {
-        counter-reset: lst-ctn-kix_list_8-2 0
-    }
-
-    ol.lst-kix_list_3-1.start {
-        counter-reset: lst-ctn-kix_list_3-1 0
-    }
-
-    .lst-kix_list_9-0>li {
-        counter-increment: lst-ctn-kix_list_9-0
-    }
-
-    ol.lst-kix_list_2-3.start {
-        counter-reset: lst-ctn-kix_list_2-3 0
-    }
-
-    ol.lst-kix_list_1-5.start {
-        counter-reset: lst-ctn-kix_list_1-5 0
-    }
-
-    ol.lst-kix_list_9-6.start {
-        counter-reset: lst-ctn-kix_list_9-6 0
-    }
-
-    .lst-kix_list_2-3>li {
-        counter-increment: lst-ctn-kix_list_2-3
-    }
-
-    .lst-kix_list_4-3>li {
-        counter-increment: lst-ctn-kix_list_4-3
-    }
-
-    ol.lst-kix_list_4-5.start {
-        counter-reset: lst-ctn-kix_list_4-5 0
-    }
-
-    .lst-kix_list_1-2>li {
-        counter-increment: lst-ctn-kix_list_1-2
-    }
-
-    ol.lst-kix_list_3-7.start {
-        counter-reset: lst-ctn-kix_list_3-7 0
-    }
-
-    ol.lst-kix_list_8-8.start {
-        counter-reset: lst-ctn-kix_list_8-8 0
-    }
-
-    .lst-kix_list_3-2>li {
-        counter-increment: lst-ctn-kix_list_3-2
-    }
-
-    ol.lst-kix_list_10-4.start {
-        counter-reset: lst-ctn-kix_list_10-4 0
-    }
-
-    .lst-kix_list_9-2>li {
-        counter-increment: lst-ctn-kix_list_9-2
-    }
-
-    ol.lst-kix_list_8-7.start {
-        counter-reset: lst-ctn-kix_list_8-7 0
-    }
-
-    .lst-kix_list_5-0>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_1-4>li {
-        counter-increment: lst-ctn-kix_list_1-4
-    }
-
-    ol.lst-kix_list_1-6.start {
-        counter-reset: lst-ctn-kix_list_1-6 0
-    }
-
-    .lst-kix_list_5-3>li:before {
-        content: "\0025cf  "
-    }
-
-    ol.lst-kix_list_9-5.start {
-        counter-reset: lst-ctn-kix_list_9-5 0
-    }
-
-    .lst-kix_list_5-2>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_8-3>li {
-        counter-increment: lst-ctn-kix_list_8-3
-    }
-
-    .lst-kix_list_5-1>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_5-7>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_5-6>li:before {
-        content: "\0025cf  "
-    }
-
-    .lst-kix_list_5-8>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_9-4>li {
-        counter-increment: lst-ctn-kix_list_9-4
-    }
-
-    .lst-kix_list_5-4>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_5-5>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_10-3>li {
-        counter-increment: lst-ctn-kix_list_10-3
-    }
-
-    ol.lst-kix_list_1-0.start {
-        counter-reset: lst-ctn-kix_list_1-0 0
-    }
-
-    .lst-kix_list_6-1>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_6-3>li:before {
-        content: "\0025cf  "
-    }
-
-    .lst-kix_list_6-0>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_6-4>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_3-0>li {
-        counter-increment: lst-ctn-kix_list_3-0
-    }
-
-    ol.lst-kix_list_4-0.start {
-        counter-reset: lst-ctn-kix_list_4-0 0
-    }
-
-    .lst-kix_list_3-6>li {
-        counter-increment: lst-ctn-kix_list_3-6
-    }
-
-    .lst-kix_list_6-2>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_2-5>li {
-        counter-increment: lst-ctn-kix_list_2-5
-    }
-
-    .lst-kix_list_2-8>li {
-        counter-increment: lst-ctn-kix_list_2-8
-    }
-
-    ol.lst-kix_list_3-2.start {
-        counter-reset: lst-ctn-kix_list_3-2 0
-    }
-
-    .lst-kix_list_6-8>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_6-5>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_6-7>li:before {
-        content: "o  "
-    }
-
-    ol.lst-kix_list_2-4.start {
-        counter-reset: lst-ctn-kix_list_2-4 0
-    }
-
-    .lst-kix_list_6-6>li:before {
-        content: "\0025cf  "
-    }
-
-    ol.lst-kix_list_1-3 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-6.start {
-        counter-reset: lst-ctn-kix_list_10-6 0
-    }
-
-    ol.lst-kix_list_1-4 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_2-7>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) "."counter(lst-ctn-kix_list_2-4, decimal) "."counter(lst-ctn-kix_list_2-5, decimal) "."counter(lst-ctn-kix_list_2-6, decimal) "."counter(lst-ctn-kix_list_2-7, decimal) ". "
-    }
-
-    .lst-kix_list_2-7>li {
-        counter-increment: lst-ctn-kix_list_2-7
-    }
-
-    ol.lst-kix_list_1-5 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_7-4>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_7-6>li:before {
-        content: "\0025cf  "
-    }
-
-    ol.lst-kix_list_1-6 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_1-0 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_2-5>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) "."counter(lst-ctn-kix_list_2-4, decimal) "."counter(lst-ctn-kix_list_2-5, decimal) ". "
-    }
-
-    ol.lst-kix_list_1-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_1-2 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_7-2>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_8-6>li {
-        counter-increment: lst-ctn-kix_list_8-6
-    }
-
-    ol.lst-kix_list_10-3.start {
-        counter-reset: lst-ctn-kix_list_10-3 0
-    }
-
-    ol.lst-kix_list_9-4.start {
-        counter-reset: lst-ctn-kix_list_9-4 0
-    }
-
-    ol.lst-kix_list_4-6.start {
-        counter-reset: lst-ctn-kix_list_4-6 0
-    }
-
-    ol.lst-kix_list_9-7 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_10-1>li:before {
-        content: ""counter(lst-ctn-kix_list_10-1, lower-latin) ". "
-    }
-
-    ol.lst-kix_list_9-8 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-0.start {
-        counter-reset: lst-ctn-kix_list_3-0 0
-    }
-
-    ol.lst-kix_list_9-3 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_9-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_9-5 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_7-8>li:before {
-        content: "\0025aa  "
-    }
-
-    ol.lst-kix_list_9-6 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-3.start {
-        counter-reset: lst-ctn-kix_list_4-3 0
-    }
-
-    ol.lst-kix_list_1-7 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_4-7>li {
-        counter-increment: lst-ctn-kix_list_4-7
-    }
-
-    ol.lst-kix_list_9-0 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_1-8 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_9-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_9-2 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_10-7>li:before {
-        content: ""counter(lst-ctn-kix_list_10-7, lower-latin) ". "
-    }
-
-    ol.lst-kix_list_2-5.start {
-        counter-reset: lst-ctn-kix_list_2-5 0
-    }
-
-    .lst-kix_list_10-5>li:before {
-        content: ""counter(lst-ctn-kix_list_10-5, lower-roman) ". "
-    }
-
-    .lst-kix_list_9-8>li {
-        counter-increment: lst-ctn-kix_list_9-8
-    }
-
-    .lst-kix_list_10-3>li:before {
-        content: ""counter(lst-ctn-kix_list_10-3, decimal) ". "
-    }
-
-    .lst-kix_list_2-6>li {
-        counter-increment: lst-ctn-kix_list_2-6
-    }
-
-    .lst-kix_list_4-1>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) ". "
-    }
-
-    .lst-kix_list_9-2>li:before {
-        content: ""counter(lst-ctn-kix_list_9-2, lower-roman) ". "
-    }
-
-    .lst-kix_list_4-3>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) ". "
-    }
-
-    .lst-kix_list_4-5>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) "."counter(lst-ctn-kix_list_4-4, decimal) "."counter(lst-ctn-kix_list_4-5, decimal) ". "
-    }
-
-    .lst-kix_list_1-8>li {
-        counter-increment: lst-ctn-kix_list_1-8
-    }
-
-    .lst-kix_list_10-5>li {
-        counter-increment: lst-ctn-kix_list_10-5
-    }
-
-    ol.lst-kix_list_1-4.start {
-        counter-reset: lst-ctn-kix_list_1-4 0
-    }
-
-    .lst-kix_list_3-5>li {
-        counter-increment: lst-ctn-kix_list_3-5
-    }
-
-    ol.lst-kix_list_1-1.start {
-        counter-reset: lst-ctn-kix_list_1-1 0
-    }
-
-    .lst-kix_list_9-0>li:before {
-        content: ""counter(lst-ctn-kix_list_9-0, decimal) " "
-    }
-
-    .lst-kix_list_3-4>li {
-        counter-increment: lst-ctn-kix_list_3-4
-    }
-
-    ol.lst-kix_list_4-4.start {
-        counter-reset: lst-ctn-kix_list_4-4 0
-    }
-
-    ol.lst-kix_list_10-7 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_9-2.start {
-        counter-reset: lst-ctn-kix_list_9-2 0
-    }
-
-    .lst-kix_list_9-6>li:before {
-        content: ""counter(lst-ctn-kix_list_9-6, decimal) ". "
-    }
-
-    ol.lst-kix_list_10-8 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_9-3>li {
-        counter-increment: lst-ctn-kix_list_9-3
-    }
-
-    ol.lst-kix_list_10-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_9-4>li:before {
-        content: ""counter(lst-ctn-kix_list_9-4, lower-latin) ". "
-    }
-
-    ol.lst-kix_list_10-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-5 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-6 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-0 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_1-3.start {
-        counter-reset: lst-ctn-kix_list_1-3 0
-    }
-
-    ol.lst-kix_list_10-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-8.start {
-        counter-reset: lst-ctn-kix_list_2-8 0
-    }
-
-    ol.lst-kix_list_8-8 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_1-2.start {
-        counter-reset: lst-ctn-kix_list_1-2 0
-    }
-
-    ol.lst-kix_list_8-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-5 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-6 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-7 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-0 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_9-8>li:before {
-        content: ""counter(lst-ctn-kix_list_9-8, lower-roman) ". "
-    }
-
-    ol.lst-kix_list_8-1 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_1-1>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) " "
-    }
-
-    ol.lst-kix_list_8-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_8-5>li {
-        counter-increment: lst-ctn-kix_list_8-5
-    }
-
-    .lst-kix_list_1-3>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) " "
-    }
-
-    .lst-kix_list_10-4>li {
-        counter-increment: lst-ctn-kix_list_10-4
-    }
-
-    ol.lst-kix_list_10-5.start {
-        counter-reset: lst-ctn-kix_list_10-5 0
-    }
-
-    .lst-kix_list_4-8>li {
-        counter-increment: lst-ctn-kix_list_4-8
-    }
-
-    .lst-kix_list_1-7>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) "."counter(lst-ctn-kix_list_1-4, decimal) "."counter(lst-ctn-kix_list_1-5, decimal) "."counter(lst-ctn-kix_list_1-6, decimal) "."counter(lst-ctn-kix_list_1-7, decimal) " "
-    }
-
-    ol.lst-kix_list_2-7.start {
-        counter-reset: lst-ctn-kix_list_2-7 0
-    }
-
-    .lst-kix_list_1-3>li {
-        counter-increment: lst-ctn-kix_list_1-3
-    }
-
-    .lst-kix_list_1-5>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) "."counter(lst-ctn-kix_list_1-4, decimal) "."counter(lst-ctn-kix_list_1-5, decimal) " "
-    }
-
-    ol.lst-kix_list_9-1.start {
-        counter-reset: lst-ctn-kix_list_9-1 0
-    }
-
-    .lst-kix_list_2-1>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) ". "
-    }
-
-    .lst-kix_list_2-3>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) ". "
-    }
-
-    .lst-kix_list_4-2>li {
-        counter-increment: lst-ctn-kix_list_4-2
-    }
-
-    ol.lst-kix_list_3-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-2 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_3-1>li {
-        counter-increment: lst-ctn-kix_list_3-1
-    }
-
-    ol.lst-kix_list_3-3 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-4.start {
-        counter-reset: lst-ctn-kix_list_3-4 0
-    }
-
-    ol.lst-kix_list_3-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-0 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_1-1>li {
-        counter-increment: lst-ctn-kix_list_1-1
-    }
-
-    .lst-kix_list_9-1>li {
-        counter-increment: lst-ctn-kix_list_9-1
-    }
-
-    ol.lst-kix_list_2-6.start {
-        counter-reset: lst-ctn-kix_list_2-6 0
-    }
-
-    .lst-kix_list_3-0>li:before {
-        content: ""counter(lst-ctn-kix_list_3-0, decimal) ") "
-    }
-
-    ul.lst-kix_list_5-7 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_5-8 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_3-1>li:before {
-        content: ""counter(lst-ctn-kix_list_3-1, lower-latin) ") "
-    }
-
-    .lst-kix_list_3-2>li:before {
-        content: ""counter(lst-ctn-kix_list_3-2, lower-roman) ") "
-    }
-
-    ul.lst-kix_list_5-5 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_5-6 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_8-1>li:before {
-        content: ""counter(lst-ctn-kix_list_8-1, lower-latin) ". "
-    }
-
-    ol.lst-kix_list_1-8.start {
-        counter-reset: lst-ctn-kix_list_1-8 0
-    }
-
-    .lst-kix_list_4-0>li {
-        counter-increment: lst-ctn-kix_list_4-0
-    }
-
-    .lst-kix_list_8-2>li:before {
-        content: ""counter(lst-ctn-kix_list_8-2, lower-roman) ". "
-    }
-
-    .lst-kix_list_8-0>li {
-        counter-increment: lst-ctn-kix_list_8-0
-    }
-
-    .lst-kix_list_3-5>li:before {
-        content: "("counter(lst-ctn-kix_list_3-5, lower-roman) ") "
-    }
-
-    ul.lst-kix_list_5-0 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_10-0>li {
-        counter-increment: lst-ctn-kix_list_10-0
-    }
-
-    .lst-kix_list_3-4>li:before {
-        content: "("counter(lst-ctn-kix_list_3-4, lower-latin) ") "
-    }
-
-    ul.lst-kix_list_5-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_3-3>li:before {
-        content: "("counter(lst-ctn-kix_list_3-3, decimal) ") "
-    }
-
-    ol.lst-kix_list_3-5 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_5-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-6 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_5-1 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_8-0>li:before {
-        content: ""counter(lst-ctn-kix_list_8-0, decimal) " "
-    }
-
-    ol.lst-kix_list_3-7 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_5-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-8 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_8-7>li:before {
-        content: ""counter(lst-ctn-kix_list_8-7, lower-latin) ". "
-    }
-
-    .lst-kix_list_3-8>li:before {
-        content: ""counter(lst-ctn-kix_list_3-8, lower-roman) ". "
-    }
-
-    .lst-kix_list_8-5>li:before {
-        content: ""counter(lst-ctn-kix_list_8-5, lower-roman) ". "
-    }
-
-    ol.lst-kix_list_10-7.start {
-        counter-reset: lst-ctn-kix_list_10-7 0
-    }
-
-    .lst-kix_list_8-6>li:before {
-        content: ""counter(lst-ctn-kix_list_8-6, decimal) ". "
-    }
-
-    .lst-kix_list_2-0>li {
-        counter-increment: lst-ctn-kix_list_2-0
-    }
-
-    .lst-kix_list_8-3>li:before {
-        content: ""counter(lst-ctn-kix_list_8-3, decimal) ". "
-    }
-
-    .lst-kix_list_3-6>li:before {
-        content: ""counter(lst-ctn-kix_list_3-6, decimal) ". "
-    }
-
-    .lst-kix_list_3-7>li:before {
-        content: ""counter(lst-ctn-kix_list_3-7, lower-latin) ". "
-    }
-
-    .lst-kix_list_8-4>li:before {
-        content: ""counter(lst-ctn-kix_list_8-4, lower-latin) ". "
-    }
-
-    .lst-kix_list_10-2>li {
-        counter-increment: lst-ctn-kix_list_10-2
-    }
-
-    ol.lst-kix_list_8-5.start {
-        counter-reset: lst-ctn-kix_list_8-5 0
-    }
-
-    ol.lst-kix_list_4-2.start {
-        counter-reset: lst-ctn-kix_list_4-2 0
-    }
-
-    ol.lst-kix_list_9-3.start {
-        counter-reset: lst-ctn-kix_list_9-3 0
-    }
-
-    .lst-kix_list_8-8>li:before {
-        content: ""counter(lst-ctn-kix_list_8-8, lower-roman) ". "
-    }
-
-    ol.lst-kix_list_2-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-3 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-5 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-1.start {
-        counter-reset: lst-ctn-kix_list_10-1 0
-    }
-
-    .lst-kix_list_4-4>li {
-        counter-increment: lst-ctn-kix_list_4-4
-    }
-
-    ol.lst-kix_list_2-0 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-1 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_4-8>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) "."counter(lst-ctn-kix_list_4-4, decimal) "."counter(lst-ctn-kix_list_4-5, decimal) "."counter(lst-ctn-kix_list_4-6, decimal) "."counter(lst-ctn-kix_list_4-7, decimal) "."counter(lst-ctn-kix_list_4-8, decimal) ". "
-    }
-
-    .lst-kix_list_4-7>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) "."counter(lst-ctn-kix_list_4-4, decimal) "."counter(lst-ctn-kix_list_4-5, decimal) "."counter(lst-ctn-kix_list_4-6, decimal) "."counter(lst-ctn-kix_list_4-7, decimal) ". "
-    }
-
-    ol.lst-kix_list_4-1.start {
-        counter-reset: lst-ctn-kix_list_4-1 0
-    }
-
-    ol.lst-kix_list_4-8.start {
-        counter-reset: lst-ctn-kix_list_4-8 0
-    }
-
-    .lst-kix_list_8-4>li {
-        counter-increment: lst-ctn-kix_list_8-4
-    }
-
-    ol.lst-kix_list_3-3.start {
-        counter-reset: lst-ctn-kix_list_3-3 0
-    }
-
-    ol.lst-kix_list_10-8.start {
-        counter-reset: lst-ctn-kix_list_10-8 0
-    }
-
-    ol.lst-kix_list_2-6 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-7 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-8 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-6.start {
-        counter-reset: lst-ctn-kix_list_8-6 0
-    }
-
-    .lst-kix_list_3-3>li {
-        counter-increment: lst-ctn-kix_list_3-3
-    }
-
-    ol.lst-kix_list_10-2.start {
-        counter-reset: lst-ctn-kix_list_10-2 0
-    }
-
-    ol.lst-kix_list_8-0.start {
-        counter-reset: lst-ctn-kix_list_8-0 0
-    }
-
-    .lst-kix_list_7-0>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_2-2>li {
-        counter-increment: lst-ctn-kix_list_2-2
-    }
-
-    ol.lst-kix_list_4-7.start {
-        counter-reset: lst-ctn-kix_list_4-7 0
-    }
-
-    .lst-kix_list_2-6>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) "."counter(lst-ctn-kix_list_2-4, decimal) "."counter(lst-ctn-kix_list_2-5, decimal) "."counter(lst-ctn-kix_list_2-6, decimal) ". "
-    }
-
-    .lst-kix_list_3-7>li {
-        counter-increment: lst-ctn-kix_list_3-7
-    }
-
-    ol.lst-kix_list_9-7.start {
-        counter-reset: lst-ctn-kix_list_9-7 0
-    }
-
-    .lst-kix_list_2-4>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) "."counter(lst-ctn-kix_list_2-4, decimal) ". "
-    }
-
-    .lst-kix_list_2-8>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) "."counter(lst-ctn-kix_list_2-4, decimal) "."counter(lst-ctn-kix_list_2-5, decimal) "."counter(lst-ctn-kix_list_2-6, decimal) "."counter(lst-ctn-kix_list_2-7, decimal) "."counter(lst-ctn-kix_list_2-8, decimal) ". "
-    }
-
-    .lst-kix_list_7-1>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_7-5>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_9-6>li {
-        counter-increment: lst-ctn-kix_list_9-6
-    }
-
-    .lst-kix_list_7-3>li:before {
-        content: "\0025cf  "
-    }
-
-    ul.lst-kix_list_7-5 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_10-0>li:before {
-        content: ""counter(lst-ctn-kix_list_10-0, decimal) " "
-    }
-
-    ul.lst-kix_list_7-6 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_7-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_9-7>li {
-        counter-increment: lst-ctn-kix_list_9-7
-    }
-
-    ul.lst-kix_list_7-4 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_7-7 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_7-8 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_10-6>li {
-        counter-increment: lst-ctn-kix_list_10-6
-    }
-
-    ul.lst-kix_list_7-1 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_8-7>li {
-        counter-increment: lst-ctn-kix_list_8-7
-    }
-
-    ul.lst-kix_list_7-2 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_1-7>li {
-        counter-increment: lst-ctn-kix_list_1-7
-    }
-
-    ol.lst-kix_list_3-8.start {
-        counter-reset: lst-ctn-kix_list_3-8 0
-    }
-
-    ul.lst-kix_list_7-0 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_7-7>li:before {
-        content: "o  "
-    }
-
-    ol.lst-kix_list_10-0.start {
-        counter-reset: lst-ctn-kix_list_10-0 0
-    }
-
-    ol.lst-kix_list_8-1.start {
-        counter-reset: lst-ctn-kix_list_8-1 0
-    }
-
-    .lst-kix_list_9-5>li {
-        counter-increment: lst-ctn-kix_list_9-5
-    }
-
-    .lst-kix_list_10-4>li:before {
-        content: ""counter(lst-ctn-kix_list_10-4, lower-latin) ". "
-    }
-
-    .lst-kix_list_10-8>li:before {
-        content: ""counter(lst-ctn-kix_list_10-8, lower-roman) ". "
-    }
-
-    .lst-kix_list_4-0>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) ". "
-    }
-
-    .lst-kix_list_3-8>li {
-        counter-increment: lst-ctn-kix_list_3-8
-    }
-
-    .lst-kix_list_10-2>li:before {
-        content: ""counter(lst-ctn-kix_list_10-2, lower-roman) ". "
-    }
-
-    .lst-kix_list_4-6>li {
-        counter-increment: lst-ctn-kix_list_4-6
-    }
-
-    ol.lst-kix_list_1-7.start {
-        counter-reset: lst-ctn-kix_list_1-7 0
-    }
-
-    .lst-kix_list_4-4>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) "."counter(lst-ctn-kix_list_4-4, decimal) ". "
-    }
-
-    ol.lst-kix_list_2-2.start {
-        counter-reset: lst-ctn-kix_list_2-2 0
-    }
-
-    .lst-kix_list_1-5>li {
-        counter-increment: lst-ctn-kix_list_1-5
-    }
-
-    .lst-kix_list_4-2>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) ". "
-    }
-
-    .lst-kix_list_4-6>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) "."counter(lst-ctn-kix_list_4-4, decimal) "."counter(lst-ctn-kix_list_4-5, decimal) "."counter(lst-ctn-kix_list_4-6, decimal) ". "
-    }
-
-    .lst-kix_list_9-3>li:before {
-        content: ""counter(lst-ctn-kix_list_9-3, decimal) ". "
-    }
-
-    .lst-kix_list_10-8>li {
-        counter-increment: lst-ctn-kix_list_10-8
-    }
-
-    .lst-kix_list_10-6>li:before {
-        content: ""counter(lst-ctn-kix_list_10-6, decimal) ". "
-    }
-
-    .lst-kix_list_9-1>li:before {
-        content: ""counter(lst-ctn-kix_list_9-1, lower-latin) ". "
-    }
-
-    ol.lst-kix_list_4-0 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_9-7>li:before {
-        content: ""counter(lst-ctn-kix_list_9-7, lower-latin) ". "
-    }
-
-    .lst-kix_list_2-4>li {
-        counter-increment: lst-ctn-kix_list_2-4
-    }
-
-    ol.lst-kix_list_3-6.start {
-        counter-reset: lst-ctn-kix_list_3-6 0
-    }
-
-    .lst-kix_list_9-5>li:before {
-        content: ""counter(lst-ctn-kix_list_9-5, lower-roman) ". "
-    }
-
-    ul.lst-kix_list_6-6 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-7 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-4 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-5 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-8 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-8 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_1-0>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) ". "
-    }
-
-    ol.lst-kix_list_4-4 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-5 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_1-2>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) " "
-    }
-
-    ol.lst-kix_list_2-0.start {
-        counter-reset: lst-ctn-kix_list_2-0 0
-    }
-
-    ol.lst-kix_list_4-6 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-0 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-7 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-4.start {
-        counter-reset: lst-ctn-kix_list_8-4 0
-    }
-
-    .lst-kix_list_1-4>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) "."counter(lst-ctn-kix_list_1-4, decimal) " "
-    }
-
-    ol.lst-kix_list_3-5.start {
-        counter-reset: lst-ctn-kix_list_3-5 0
-    }
-
-    .lst-kix_list_10-1>li {
-        counter-increment: lst-ctn-kix_list_10-1
-    }
-
-    .lst-kix_list_1-0>li {
-        counter-increment: lst-ctn-kix_list_1-0
-    }
-
-    .lst-kix_list_8-8>li {
-        counter-increment: lst-ctn-kix_list_8-8
-    }
-
-    .lst-kix_list_1-6>li {
-        counter-increment: lst-ctn-kix_list_1-6
-    }
-
-    .lst-kix_list_1-6>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) "."counter(lst-ctn-kix_list_1-4, decimal) "."counter(lst-ctn-kix_list_1-5, decimal) "."counter(lst-ctn-kix_list_1-6, decimal) " "
-    }
-
-    .lst-kix_list_10-7>li {
-        counter-increment: lst-ctn-kix_list_10-7
-    }
-
-    .lst-kix_list_2-0>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) ". "
-    }
-
-    ol.lst-kix_list_2-1.start {
-        counter-reset: lst-ctn-kix_list_2-1 0
-    }
-
-    ol.lst-kix_list_8-3.start {
-        counter-reset: lst-ctn-kix_list_8-3 0
-    }
-
-    .lst-kix_list_4-5>li {
-        counter-increment: lst-ctn-kix_list_4-5
-    }
-
-    ol.lst-kix_list_9-8.start {
-        counter-reset: lst-ctn-kix_list_9-8 0
-    }
-
-    .lst-kix_list_1-8>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) "."counter(lst-ctn-kix_list_1-4, decimal) "."counter(lst-ctn-kix_list_1-5, decimal) "."counter(lst-ctn-kix_list_1-6, decimal) "."counter(lst-ctn-kix_list_1-7, decimal) "."counter(lst-ctn-kix_list_1-8, decimal) " "
-    }
-
-    .lst-kix_list_2-2>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) ". "
-    }
-
-    .lst-kix_list_8-2>li {
-        counter-increment: lst-ctn-kix_list_8-2
-    }
-
-    ol {
-        margin: 0;
-        padding: 0
-    }
-
-    table td,
-    table th {
-        padding: 0
-    }
-
-    .c13 {
-        -webkit-text-decoration-skip: none;
-        color: #000000;
-        text-decoration: underline;
-        vertical-align: baseline;
-        text-decoration-skip-ink: none;
-        font-size: 16pt;
-        font-family: "Calibri";
-        font-style: normal
-    }
-
-    .c2 {
-        margin-left: 36pt;
-        padding-top: 0pt;
-        padding-left: 0pt;
-        padding-bottom: 0pt;
-        line-height: 1.0;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    .c0 {
-        padding-top: 0pt;
-        padding-bottom: 0pt;
-        line-height: 1.0;
-        orphans: 2;
-        widows: 2;
-        text-align: left;
-        height: 11pt
-    }
-
-    .c1 {
-        color: #000000;
-        font-weight: 700;
-        text-decoration: none;
-        vertical-align: baseline;
-        font-size: 11pt;
-        font-family: "Calibri";
-        font-style: normal
-    }
-
-    .c4 {
-        color: #000000;
-        font-weight: 400;
-        text-decoration: none;
-        vertical-align: baseline;
-        font-size: 11pt;
-        font-family: "Calibri";
-        font-style: normal
-    }
-
-    .c3 {
-        padding-top: 0pt;
-        text-indent: 18pt;
-        padding-bottom: 0pt;
-        line-height: 1.0;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    .c6 {
-        padding-top: 0pt;
-        padding-bottom: 0pt;
-        line-height: 1.0;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    .c12 {
-        color: #000000;
-        text-decoration: none;
-        vertical-align: baseline;
-        font-size: 10pt;
-        font-family: "Calibri";
-        font-style: normal
-    }
-
-    .c14 {
-        background-color: #ffffff;
-        max-width: 453.6pt;
-        padding: 70.8pt 70.8pt 70.8pt 70.8pt
-    }
-
-    .c10 {
-        margin-left: 18pt;
-        padding-left: 0pt
-    }
-
-    .c9 {
-        margin-left: 36pt;
-        text-indent: -36pt
-    }
-
-    .c16 {
-        margin-left: 35.4pt;
-        text-indent: -35.4pt
-    }
-
-    .c7 {
-        margin-left: 18pt;
-        text-indent: -18pt
-    }
-
-    .c8 {
-        padding: 0;
-        margin: 0
-    }
-
-    .c15 {
-        margin-left: 0.6pt
-    }
-
-    .c5 {
-        font-weight: 700
-    }
-
-    .c11 {
-        text-indent: 35.4pt
-    }
-
-    .title {
-        font-weight: 700;
-        font-size: 36pt;
-        padding-bottom: 6pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    .subtitle {
-        padding-top: 18pt;
-        color: #666666;
-        font-size: 24pt;
-        padding-bottom: 4pt;
-        font-family: "Georgia";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        font-style: italic;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    li {
-        color: #000000;
-        font-size: 11pt;
-        font-family: "Calibri"
-    }
-
-    p {
-        margin: 0;
-        color: #000000;
-        font-size: 11pt;
-        font-family: "Calibri"
-    }
-
-    h1 {
-        font-weight: 700;
-        font-size: 24pt;
-        padding-bottom: 6pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    h2 {
-        padding-top: 18pt;
-        font-weight: 700;
-        font-size: 18pt;
-        padding-bottom: 4pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    h3 {
-        padding-top: 14pt;
-        color: #000000;
-        font-weight: 700;
-        font-size: 14pt;
-        padding-bottom: 4pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    h4 {
-        padding-top: 12pt;
-        color: #000000;
-        font-weight: 700;
-        font-size: 12pt;
-        padding-bottom: 2pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    h5 {
-        padding-top: 11pt;
-        color: #000000;
-        font-weight: 700;
-        font-size: 11pt;
-        padding-bottom: 2pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    h6 {
-        padding-top: 10pt;
-        color: #000000;
-        font-weight: 700;
-        font-size: 10pt;
-        padding-bottom: 2pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
+        @import url('https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLUXza5VhXqVC6o75Eld_V98');
+
+        .lst-kix_list_4-1>li {
+            counter-increment: lst-ctn-kix_list_4-1
+        }
+
+        .lst-kix_list_2-1>li {
+            counter-increment: lst-ctn-kix_list_2-1
+        }
+
+        ol.lst-kix_list_9-0.start {
+            counter-reset: lst-ctn-kix_list_9-0 0
+        }
+
+        .lst-kix_list_8-1>li {
+            counter-increment: lst-ctn-kix_list_8-1
+        }
+
+        ol.lst-kix_list_8-2.start {
+            counter-reset: lst-ctn-kix_list_8-2 0
+        }
+
+        ol.lst-kix_list_3-1.start {
+            counter-reset: lst-ctn-kix_list_3-1 0
+        }
+
+        .lst-kix_list_9-0>li {
+            counter-increment: lst-ctn-kix_list_9-0
+        }
+
+        ol.lst-kix_list_2-3.start {
+            counter-reset: lst-ctn-kix_list_2-3 0
+        }
+
+        ol.lst-kix_list_1-5.start {
+            counter-reset: lst-ctn-kix_list_1-5 0
+        }
+
+        ol.lst-kix_list_9-6.start {
+            counter-reset: lst-ctn-kix_list_9-6 0
+        }
+
+        .lst-kix_list_2-3>li {
+            counter-increment: lst-ctn-kix_list_2-3
+        }
+
+        .lst-kix_list_4-3>li {
+            counter-increment: lst-ctn-kix_list_4-3
+        }
+
+        ol.lst-kix_list_4-5.start {
+            counter-reset: lst-ctn-kix_list_4-5 0
+        }
+
+        .lst-kix_list_1-2>li {
+            counter-increment: lst-ctn-kix_list_1-2
+        }
+
+        ol.lst-kix_list_3-7.start {
+            counter-reset: lst-ctn-kix_list_3-7 0
+        }
+
+        ol.lst-kix_list_8-8.start {
+            counter-reset: lst-ctn-kix_list_8-8 0
+        }
+
+        .lst-kix_list_3-2>li {
+            counter-increment: lst-ctn-kix_list_3-2
+        }
+
+        ol.lst-kix_list_10-4.start {
+            counter-reset: lst-ctn-kix_list_10-4 0
+        }
+
+        .lst-kix_list_9-2>li {
+            counter-increment: lst-ctn-kix_list_9-2
+        }
+
+        ol.lst-kix_list_8-7.start {
+            counter-reset: lst-ctn-kix_list_8-7 0
+        }
+
+        .lst-kix_list_5-0>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_1-4>li {
+            counter-increment: lst-ctn-kix_list_1-4
+        }
+
+        ol.lst-kix_list_1-6.start {
+            counter-reset: lst-ctn-kix_list_1-6 0
+        }
+
+        .lst-kix_list_5-3>li:before {
+            content: "\0025cf  "
+        }
+
+        ol.lst-kix_list_9-5.start {
+            counter-reset: lst-ctn-kix_list_9-5 0
+        }
+
+        .lst-kix_list_5-2>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_8-3>li {
+            counter-increment: lst-ctn-kix_list_8-3
+        }
+
+        .lst-kix_list_5-1>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_5-7>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_5-6>li:before {
+            content: "\0025cf  "
+        }
+
+        .lst-kix_list_5-8>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_9-4>li {
+            counter-increment: lst-ctn-kix_list_9-4
+        }
+
+        .lst-kix_list_5-4>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_5-5>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_10-3>li {
+            counter-increment: lst-ctn-kix_list_10-3
+        }
+
+        ol.lst-kix_list_1-0.start {
+            counter-reset: lst-ctn-kix_list_1-0 0
+        }
+
+        .lst-kix_list_6-1>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_6-3>li:before {
+            content: "\0025cf  "
+        }
+
+        .lst-kix_list_6-0>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_6-4>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_3-0>li {
+            counter-increment: lst-ctn-kix_list_3-0
+        }
+
+        ol.lst-kix_list_4-0.start {
+            counter-reset: lst-ctn-kix_list_4-0 0
+        }
+
+        .lst-kix_list_3-6>li {
+            counter-increment: lst-ctn-kix_list_3-6
+        }
+
+        .lst-kix_list_6-2>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_2-5>li {
+            counter-increment: lst-ctn-kix_list_2-5
+        }
+
+        .lst-kix_list_2-8>li {
+            counter-increment: lst-ctn-kix_list_2-8
+        }
+
+        ol.lst-kix_list_3-2.start {
+            counter-reset: lst-ctn-kix_list_3-2 0
+        }
+
+        .lst-kix_list_6-8>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_6-5>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_6-7>li:before {
+            content: "o  "
+        }
+
+        ol.lst-kix_list_2-4.start {
+            counter-reset: lst-ctn-kix_list_2-4 0
+        }
+
+        .lst-kix_list_6-6>li:before {
+            content: "\0025cf  "
+        }
+
+        ol.lst-kix_list_1-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-6.start {
+            counter-reset: lst-ctn-kix_list_10-6 0
+        }
+
+        ol.lst-kix_list_1-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_2-7>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) "." counter(lst-ctn-kix_list_2-4, decimal) "." counter(lst-ctn-kix_list_2-5, decimal) "." counter(lst-ctn-kix_list_2-6, decimal) "." counter(lst-ctn-kix_list_2-7, decimal) ". "
+        }
+
+        .lst-kix_list_2-7>li {
+            counter-increment: lst-ctn-kix_list_2-7
+        }
+
+        ol.lst-kix_list_1-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_7-4>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_7-6>li:before {
+            content: "\0025cf  "
+        }
+
+        ol.lst-kix_list_1-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_1-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_2-5>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) "." counter(lst-ctn-kix_list_2-4, decimal) "." counter(lst-ctn-kix_list_2-5, decimal) ". "
+        }
+
+        ol.lst-kix_list_1-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_1-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_7-2>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_8-6>li {
+            counter-increment: lst-ctn-kix_list_8-6
+        }
+
+        ol.lst-kix_list_10-3.start {
+            counter-reset: lst-ctn-kix_list_10-3 0
+        }
+
+        ol.lst-kix_list_9-4.start {
+            counter-reset: lst-ctn-kix_list_9-4 0
+        }
+
+        ol.lst-kix_list_4-6.start {
+            counter-reset: lst-ctn-kix_list_4-6 0
+        }
+
+        ol.lst-kix_list_9-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_10-1>li:before {
+            content: "" counter(lst-ctn-kix_list_10-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_list_9-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-0.start {
+            counter-reset: lst-ctn-kix_list_3-0 0
+        }
+
+        ol.lst-kix_list_9-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_9-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_9-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_7-8>li:before {
+            content: "\0025aa  "
+        }
+
+        ol.lst-kix_list_9-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-3.start {
+            counter-reset: lst-ctn-kix_list_4-3 0
+        }
+
+        ol.lst-kix_list_1-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_4-7>li {
+            counter-increment: lst-ctn-kix_list_4-7
+        }
+
+        ol.lst-kix_list_9-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_1-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_9-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_9-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_10-7>li:before {
+            content: "" counter(lst-ctn-kix_list_10-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_list_2-5.start {
+            counter-reset: lst-ctn-kix_list_2-5 0
+        }
+
+        .lst-kix_list_10-5>li:before {
+            content: "" counter(lst-ctn-kix_list_10-5, lower-roman) ". "
+        }
+
+        .lst-kix_list_9-8>li {
+            counter-increment: lst-ctn-kix_list_9-8
+        }
+
+        .lst-kix_list_10-3>li:before {
+            content: "" counter(lst-ctn-kix_list_10-3, decimal) ". "
+        }
+
+        .lst-kix_list_2-6>li {
+            counter-increment: lst-ctn-kix_list_2-6
+        }
+
+        .lst-kix_list_4-1>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) ". "
+        }
+
+        .lst-kix_list_9-2>li:before {
+            content: "" counter(lst-ctn-kix_list_9-2, lower-roman) ". "
+        }
+
+        .lst-kix_list_4-3>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) ". "
+        }
+
+        .lst-kix_list_4-5>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) "." counter(lst-ctn-kix_list_4-4, decimal) "." counter(lst-ctn-kix_list_4-5, decimal) ". "
+        }
+
+        .lst-kix_list_1-8>li {
+            counter-increment: lst-ctn-kix_list_1-8
+        }
+
+        .lst-kix_list_10-5>li {
+            counter-increment: lst-ctn-kix_list_10-5
+        }
+
+        ol.lst-kix_list_1-4.start {
+            counter-reset: lst-ctn-kix_list_1-4 0
+        }
+
+        .lst-kix_list_3-5>li {
+            counter-increment: lst-ctn-kix_list_3-5
+        }
+
+        ol.lst-kix_list_1-1.start {
+            counter-reset: lst-ctn-kix_list_1-1 0
+        }
+
+        .lst-kix_list_9-0>li:before {
+            content: "" counter(lst-ctn-kix_list_9-0, decimal) " "
+        }
+
+        .lst-kix_list_3-4>li {
+            counter-increment: lst-ctn-kix_list_3-4
+        }
+
+        ol.lst-kix_list_4-4.start {
+            counter-reset: lst-ctn-kix_list_4-4 0
+        }
+
+        ol.lst-kix_list_10-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_9-2.start {
+            counter-reset: lst-ctn-kix_list_9-2 0
+        }
+
+        .lst-kix_list_9-6>li:before {
+            content: "" counter(lst-ctn-kix_list_9-6, decimal) ". "
+        }
+
+        ol.lst-kix_list_10-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_9-3>li {
+            counter-increment: lst-ctn-kix_list_9-3
+        }
+
+        ol.lst-kix_list_10-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_9-4>li:before {
+            content: "" counter(lst-ctn-kix_list_9-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_list_10-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_1-3.start {
+            counter-reset: lst-ctn-kix_list_1-3 0
+        }
+
+        ol.lst-kix_list_10-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-8.start {
+            counter-reset: lst-ctn-kix_list_2-8 0
+        }
+
+        ol.lst-kix_list_8-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_1-2.start {
+            counter-reset: lst-ctn-kix_list_1-2 0
+        }
+
+        ol.lst-kix_list_8-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_9-8>li:before {
+            content: "" counter(lst-ctn-kix_list_9-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_list_8-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_1-1>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) " "
+        }
+
+        ol.lst-kix_list_8-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_8-5>li {
+            counter-increment: lst-ctn-kix_list_8-5
+        }
+
+        .lst-kix_list_1-3>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) " "
+        }
+
+        .lst-kix_list_10-4>li {
+            counter-increment: lst-ctn-kix_list_10-4
+        }
+
+        ol.lst-kix_list_10-5.start {
+            counter-reset: lst-ctn-kix_list_10-5 0
+        }
+
+        .lst-kix_list_4-8>li {
+            counter-increment: lst-ctn-kix_list_4-8
+        }
+
+        .lst-kix_list_1-7>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) "." counter(lst-ctn-kix_list_1-4, decimal) "." counter(lst-ctn-kix_list_1-5, decimal) "." counter(lst-ctn-kix_list_1-6, decimal) "." counter(lst-ctn-kix_list_1-7, decimal) " "
+        }
+
+        ol.lst-kix_list_2-7.start {
+            counter-reset: lst-ctn-kix_list_2-7 0
+        }
+
+        .lst-kix_list_1-3>li {
+            counter-increment: lst-ctn-kix_list_1-3
+        }
+
+        .lst-kix_list_1-5>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) "." counter(lst-ctn-kix_list_1-4, decimal) "." counter(lst-ctn-kix_list_1-5, decimal) " "
+        }
+
+        ol.lst-kix_list_9-1.start {
+            counter-reset: lst-ctn-kix_list_9-1 0
+        }
+
+        .lst-kix_list_2-1>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) ". "
+        }
+
+        .lst-kix_list_2-3>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) ". "
+        }
+
+        .lst-kix_list_4-2>li {
+            counter-increment: lst-ctn-kix_list_4-2
+        }
+
+        ol.lst-kix_list_3-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_3-1>li {
+            counter-increment: lst-ctn-kix_list_3-1
+        }
+
+        ol.lst-kix_list_3-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-4.start {
+            counter-reset: lst-ctn-kix_list_3-4 0
+        }
+
+        ol.lst-kix_list_3-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_1-1>li {
+            counter-increment: lst-ctn-kix_list_1-1
+        }
+
+        .lst-kix_list_9-1>li {
+            counter-increment: lst-ctn-kix_list_9-1
+        }
+
+        ol.lst-kix_list_2-6.start {
+            counter-reset: lst-ctn-kix_list_2-6 0
+        }
+
+        .lst-kix_list_3-0>li:before {
+            content: "" counter(lst-ctn-kix_list_3-0, decimal) ") "
+        }
+
+        ul.lst-kix_list_5-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_5-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_3-1>li:before {
+            content: "" counter(lst-ctn-kix_list_3-1, lower-latin) ") "
+        }
+
+        .lst-kix_list_3-2>li:before {
+            content: "" counter(lst-ctn-kix_list_3-2, lower-roman) ") "
+        }
+
+        ul.lst-kix_list_5-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_5-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_8-1>li:before {
+            content: "" counter(lst-ctn-kix_list_8-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_list_1-8.start {
+            counter-reset: lst-ctn-kix_list_1-8 0
+        }
+
+        .lst-kix_list_4-0>li {
+            counter-increment: lst-ctn-kix_list_4-0
+        }
+
+        .lst-kix_list_8-2>li:before {
+            content: "" counter(lst-ctn-kix_list_8-2, lower-roman) ". "
+        }
+
+        .lst-kix_list_8-0>li {
+            counter-increment: lst-ctn-kix_list_8-0
+        }
+
+        .lst-kix_list_3-5>li:before {
+            content: "(" counter(lst-ctn-kix_list_3-5, lower-roman) ") "
+        }
+
+        ul.lst-kix_list_5-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_10-0>li {
+            counter-increment: lst-ctn-kix_list_10-0
+        }
+
+        .lst-kix_list_3-4>li:before {
+            content: "(" counter(lst-ctn-kix_list_3-4, lower-latin) ") "
+        }
+
+        ul.lst-kix_list_5-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_3-3>li:before {
+            content: "(" counter(lst-ctn-kix_list_3-3, decimal) ") "
+        }
+
+        ol.lst-kix_list_3-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_5-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_5-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_8-0>li:before {
+            content: "" counter(lst-ctn-kix_list_8-0, decimal) " "
+        }
+
+        ol.lst-kix_list_3-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_5-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_8-7>li:before {
+            content: "" counter(lst-ctn-kix_list_8-7, lower-latin) ". "
+        }
+
+        .lst-kix_list_3-8>li:before {
+            content: "" counter(lst-ctn-kix_list_3-8, lower-roman) ". "
+        }
+
+        .lst-kix_list_8-5>li:before {
+            content: "" counter(lst-ctn-kix_list_8-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_list_10-7.start {
+            counter-reset: lst-ctn-kix_list_10-7 0
+        }
+
+        .lst-kix_list_8-6>li:before {
+            content: "" counter(lst-ctn-kix_list_8-6, decimal) ". "
+        }
+
+        .lst-kix_list_2-0>li {
+            counter-increment: lst-ctn-kix_list_2-0
+        }
+
+        .lst-kix_list_8-3>li:before {
+            content: "" counter(lst-ctn-kix_list_8-3, decimal) ". "
+        }
+
+        .lst-kix_list_3-6>li:before {
+            content: "" counter(lst-ctn-kix_list_3-6, decimal) ". "
+        }
+
+        .lst-kix_list_3-7>li:before {
+            content: "" counter(lst-ctn-kix_list_3-7, lower-latin) ". "
+        }
+
+        .lst-kix_list_8-4>li:before {
+            content: "" counter(lst-ctn-kix_list_8-4, lower-latin) ". "
+        }
+
+        .lst-kix_list_10-2>li {
+            counter-increment: lst-ctn-kix_list_10-2
+        }
+
+        ol.lst-kix_list_8-5.start {
+            counter-reset: lst-ctn-kix_list_8-5 0
+        }
+
+        ol.lst-kix_list_4-2.start {
+            counter-reset: lst-ctn-kix_list_4-2 0
+        }
+
+        ol.lst-kix_list_9-3.start {
+            counter-reset: lst-ctn-kix_list_9-3 0
+        }
+
+        .lst-kix_list_8-8>li:before {
+            content: "" counter(lst-ctn-kix_list_8-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_list_2-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-1.start {
+            counter-reset: lst-ctn-kix_list_10-1 0
+        }
+
+        .lst-kix_list_4-4>li {
+            counter-increment: lst-ctn-kix_list_4-4
+        }
+
+        ol.lst-kix_list_2-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_4-8>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) "." counter(lst-ctn-kix_list_4-4, decimal) "." counter(lst-ctn-kix_list_4-5, decimal) "." counter(lst-ctn-kix_list_4-6, decimal) "." counter(lst-ctn-kix_list_4-7, decimal) "." counter(lst-ctn-kix_list_4-8, decimal) ". "
+        }
+
+        .lst-kix_list_4-7>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) "." counter(lst-ctn-kix_list_4-4, decimal) "." counter(lst-ctn-kix_list_4-5, decimal) "." counter(lst-ctn-kix_list_4-6, decimal) "." counter(lst-ctn-kix_list_4-7, decimal) ". "
+        }
+
+        ol.lst-kix_list_4-1.start {
+            counter-reset: lst-ctn-kix_list_4-1 0
+        }
+
+        ol.lst-kix_list_4-8.start {
+            counter-reset: lst-ctn-kix_list_4-8 0
+        }
+
+        .lst-kix_list_8-4>li {
+            counter-increment: lst-ctn-kix_list_8-4
+        }
+
+        ol.lst-kix_list_3-3.start {
+            counter-reset: lst-ctn-kix_list_3-3 0
+        }
+
+        ol.lst-kix_list_10-8.start {
+            counter-reset: lst-ctn-kix_list_10-8 0
+        }
+
+        ol.lst-kix_list_2-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-6.start {
+            counter-reset: lst-ctn-kix_list_8-6 0
+        }
+
+        .lst-kix_list_3-3>li {
+            counter-increment: lst-ctn-kix_list_3-3
+        }
+
+        ol.lst-kix_list_10-2.start {
+            counter-reset: lst-ctn-kix_list_10-2 0
+        }
+
+        ol.lst-kix_list_8-0.start {
+            counter-reset: lst-ctn-kix_list_8-0 0
+        }
+
+        .lst-kix_list_7-0>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_2-2>li {
+            counter-increment: lst-ctn-kix_list_2-2
+        }
+
+        ol.lst-kix_list_4-7.start {
+            counter-reset: lst-ctn-kix_list_4-7 0
+        }
+
+        .lst-kix_list_2-6>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) "." counter(lst-ctn-kix_list_2-4, decimal) "." counter(lst-ctn-kix_list_2-5, decimal) "." counter(lst-ctn-kix_list_2-6, decimal) ". "
+        }
+
+        .lst-kix_list_3-7>li {
+            counter-increment: lst-ctn-kix_list_3-7
+        }
+
+        ol.lst-kix_list_9-7.start {
+            counter-reset: lst-ctn-kix_list_9-7 0
+        }
+
+        .lst-kix_list_2-4>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) "." counter(lst-ctn-kix_list_2-4, decimal) ". "
+        }
+
+        .lst-kix_list_2-8>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) "." counter(lst-ctn-kix_list_2-4, decimal) "." counter(lst-ctn-kix_list_2-5, decimal) "." counter(lst-ctn-kix_list_2-6, decimal) "." counter(lst-ctn-kix_list_2-7, decimal) "." counter(lst-ctn-kix_list_2-8, decimal) ". "
+        }
+
+        .lst-kix_list_7-1>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_7-5>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_9-6>li {
+            counter-increment: lst-ctn-kix_list_9-6
+        }
+
+        .lst-kix_list_7-3>li:before {
+            content: "\0025cf  "
+        }
+
+        ul.lst-kix_list_7-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_10-0>li:before {
+            content: "" counter(lst-ctn-kix_list_10-0, decimal) " "
+        }
+
+        ul.lst-kix_list_7-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_7-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_9-7>li {
+            counter-increment: lst-ctn-kix_list_9-7
+        }
+
+        ul.lst-kix_list_7-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_7-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_7-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_10-6>li {
+            counter-increment: lst-ctn-kix_list_10-6
+        }
+
+        ul.lst-kix_list_7-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_8-7>li {
+            counter-increment: lst-ctn-kix_list_8-7
+        }
+
+        ul.lst-kix_list_7-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_1-7>li {
+            counter-increment: lst-ctn-kix_list_1-7
+        }
+
+        ol.lst-kix_list_3-8.start {
+            counter-reset: lst-ctn-kix_list_3-8 0
+        }
+
+        ul.lst-kix_list_7-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_7-7>li:before {
+            content: "o  "
+        }
+
+        ol.lst-kix_list_10-0.start {
+            counter-reset: lst-ctn-kix_list_10-0 0
+        }
+
+        ol.lst-kix_list_8-1.start {
+            counter-reset: lst-ctn-kix_list_8-1 0
+        }
+
+        .lst-kix_list_9-5>li {
+            counter-increment: lst-ctn-kix_list_9-5
+        }
+
+        .lst-kix_list_10-4>li:before {
+            content: "" counter(lst-ctn-kix_list_10-4, lower-latin) ". "
+        }
+
+        .lst-kix_list_10-8>li:before {
+            content: "" counter(lst-ctn-kix_list_10-8, lower-roman) ". "
+        }
+
+        .lst-kix_list_4-0>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) ". "
+        }
+
+        .lst-kix_list_3-8>li {
+            counter-increment: lst-ctn-kix_list_3-8
+        }
+
+        .lst-kix_list_10-2>li:before {
+            content: "" counter(lst-ctn-kix_list_10-2, lower-roman) ". "
+        }
+
+        .lst-kix_list_4-6>li {
+            counter-increment: lst-ctn-kix_list_4-6
+        }
+
+        ol.lst-kix_list_1-7.start {
+            counter-reset: lst-ctn-kix_list_1-7 0
+        }
+
+        .lst-kix_list_4-4>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) "." counter(lst-ctn-kix_list_4-4, decimal) ". "
+        }
+
+        ol.lst-kix_list_2-2.start {
+            counter-reset: lst-ctn-kix_list_2-2 0
+        }
+
+        .lst-kix_list_1-5>li {
+            counter-increment: lst-ctn-kix_list_1-5
+        }
+
+        .lst-kix_list_4-2>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) ". "
+        }
+
+        .lst-kix_list_4-6>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) "." counter(lst-ctn-kix_list_4-4, decimal) "." counter(lst-ctn-kix_list_4-5, decimal) "." counter(lst-ctn-kix_list_4-6, decimal) ". "
+        }
+
+        .lst-kix_list_9-3>li:before {
+            content: "" counter(lst-ctn-kix_list_9-3, decimal) ". "
+        }
+
+        .lst-kix_list_10-8>li {
+            counter-increment: lst-ctn-kix_list_10-8
+        }
+
+        .lst-kix_list_10-6>li:before {
+            content: "" counter(lst-ctn-kix_list_10-6, decimal) ". "
+        }
+
+        .lst-kix_list_9-1>li:before {
+            content: "" counter(lst-ctn-kix_list_9-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_list_4-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_9-7>li:before {
+            content: "" counter(lst-ctn-kix_list_9-7, lower-latin) ". "
+        }
+
+        .lst-kix_list_2-4>li {
+            counter-increment: lst-ctn-kix_list_2-4
+        }
+
+        ol.lst-kix_list_3-6.start {
+            counter-reset: lst-ctn-kix_list_3-6 0
+        }
+
+        .lst-kix_list_9-5>li:before {
+            content: "" counter(lst-ctn-kix_list_9-5, lower-roman) ". "
+        }
+
+        ul.lst-kix_list_6-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_1-0>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) ". "
+        }
+
+        ol.lst-kix_list_4-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_1-2>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) " "
+        }
+
+        ol.lst-kix_list_2-0.start {
+            counter-reset: lst-ctn-kix_list_2-0 0
+        }
+
+        ol.lst-kix_list_4-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-4.start {
+            counter-reset: lst-ctn-kix_list_8-4 0
+        }
+
+        .lst-kix_list_1-4>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) "." counter(lst-ctn-kix_list_1-4, decimal) " "
+        }
+
+        ol.lst-kix_list_3-5.start {
+            counter-reset: lst-ctn-kix_list_3-5 0
+        }
+
+        .lst-kix_list_10-1>li {
+            counter-increment: lst-ctn-kix_list_10-1
+        }
+
+        .lst-kix_list_1-0>li {
+            counter-increment: lst-ctn-kix_list_1-0
+        }
+
+        .lst-kix_list_8-8>li {
+            counter-increment: lst-ctn-kix_list_8-8
+        }
+
+        .lst-kix_list_1-6>li {
+            counter-increment: lst-ctn-kix_list_1-6
+        }
+
+        .lst-kix_list_1-6>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) "." counter(lst-ctn-kix_list_1-4, decimal) "." counter(lst-ctn-kix_list_1-5, decimal) "." counter(lst-ctn-kix_list_1-6, decimal) " "
+        }
+
+        .lst-kix_list_10-7>li {
+            counter-increment: lst-ctn-kix_list_10-7
+        }
+
+        .lst-kix_list_2-0>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) ". "
+        }
+
+        ol.lst-kix_list_2-1.start {
+            counter-reset: lst-ctn-kix_list_2-1 0
+        }
+
+        ol.lst-kix_list_8-3.start {
+            counter-reset: lst-ctn-kix_list_8-3 0
+        }
+
+        .lst-kix_list_4-5>li {
+            counter-increment: lst-ctn-kix_list_4-5
+        }
+
+        ol.lst-kix_list_9-8.start {
+            counter-reset: lst-ctn-kix_list_9-8 0
+        }
+
+        .lst-kix_list_1-8>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) "." counter(lst-ctn-kix_list_1-4, decimal) "." counter(lst-ctn-kix_list_1-5, decimal) "." counter(lst-ctn-kix_list_1-6, decimal) "." counter(lst-ctn-kix_list_1-7, decimal) "." counter(lst-ctn-kix_list_1-8, decimal) " "
+        }
+
+        .lst-kix_list_2-2>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) ". "
+        }
+
+        .lst-kix_list_8-2>li {
+            counter-increment: lst-ctn-kix_list_8-2
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c13 {
+            -webkit-text-decoration-skip: none;
+            color: #000000;
+            text-decoration: underline;
+            vertical-align: baseline;
+            text-decoration-skip-ink: none;
+            font-size: 16pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c2 {
+            margin-left: 36pt;
+            padding-top: 0pt;
+            padding-left: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c0 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+            height: 11pt
+        }
+
+        .c1 {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c4 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c3 {
+            padding-top: 0pt;
+            text-indent: 18pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c6 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c12 {
+            color: #000000;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c14 {
+            background-color: #ffffff;
+            max-width: 453.6pt;
+            padding: 70.8pt 70.8pt 70.8pt 70.8pt
+        }
+
+        .c10 {
+            margin-left: 18pt;
+            padding-left: 0pt
+        }
+
+        .c9 {
+            margin-left: 36pt;
+            text-indent: -36pt
+        }
+
+        .c16 {
+            margin-left: 35.4pt;
+            text-indent: -35.4pt
+        }
+
+        .c7 {
+            margin-left: 18pt;
+            text-indent: -18pt
+        }
+
+        .c8 {
+            padding: 0;
+            margin: 0
+        }
+
+        .c15 {
+            margin-left: 0.6pt
+        }
+
+        .c5 {
+            font-weight: 700
+        }
+
+        .c11 {
+            text-indent: 35.4pt
+        }
+
+        .title {
+            font-weight: 700;
+            font-size: 36pt;
+            padding-bottom: 6pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 18pt;
+            color: #666666;
+            font-size: 24pt;
+            padding-bottom: 4pt;
+            font-family: "Georgia";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Calibri"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Calibri"
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 24pt;
+            padding-bottom: 6pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            font-weight: 700;
+            font-size: 18pt;
+            padding-bottom: 4pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 14pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 12pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 12pt;
+            padding-bottom: 2pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 11pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 11pt;
+            padding-bottom: 2pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 10pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 10pt;
+            padding-bottom: 2pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
     </style>
 </head>
+
 <body class="w3-content">
     <h1>Privacy-verklaring <?php echo $organisator; ?></h1>
     <p class="c0"><span class="c4"></span>
@@ -1744,6 +1745,7 @@
 <?php require_once('modules/bestelfuncties.php'); ?>
 <!DOCTYPE HTML>
 <html>
+
 <head>
     <title>Privacy-verklaring</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1751,1486 +1753,1487 @@
     <link href="css/w3.css" rel="stylesheet" type="text/css">
     <link rel="icon" type="image/png" href="<?php echo $favicon; ?>">
     <style type="text/css">
-    @import url('https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLUXza5VhXqVC6o75Eld_V98');
-
-    .lst-kix_list_4-1>li {
-        counter-increment: lst-ctn-kix_list_4-1
-    }
-
-    .lst-kix_list_2-1>li {
-        counter-increment: lst-ctn-kix_list_2-1
-    }
-
-    ol.lst-kix_list_9-0.start {
-        counter-reset: lst-ctn-kix_list_9-0 0
-    }
-
-    .lst-kix_list_8-1>li {
-        counter-increment: lst-ctn-kix_list_8-1
-    }
-
-    ol.lst-kix_list_8-2.start {
-        counter-reset: lst-ctn-kix_list_8-2 0
-    }
-
-    ol.lst-kix_list_3-1.start {
-        counter-reset: lst-ctn-kix_list_3-1 0
-    }
-
-    .lst-kix_list_9-0>li {
-        counter-increment: lst-ctn-kix_list_9-0
-    }
-
-    ol.lst-kix_list_2-3.start {
-        counter-reset: lst-ctn-kix_list_2-3 0
-    }
-
-    ol.lst-kix_list_1-5.start {
-        counter-reset: lst-ctn-kix_list_1-5 0
-    }
-
-    ol.lst-kix_list_9-6.start {
-        counter-reset: lst-ctn-kix_list_9-6 0
-    }
-
-    .lst-kix_list_2-3>li {
-        counter-increment: lst-ctn-kix_list_2-3
-    }
-
-    .lst-kix_list_4-3>li {
-        counter-increment: lst-ctn-kix_list_4-3
-    }
-
-    ol.lst-kix_list_4-5.start {
-        counter-reset: lst-ctn-kix_list_4-5 0
-    }
-
-    .lst-kix_list_1-2>li {
-        counter-increment: lst-ctn-kix_list_1-2
-    }
-
-    ol.lst-kix_list_3-7.start {
-        counter-reset: lst-ctn-kix_list_3-7 0
-    }
-
-    ol.lst-kix_list_8-8.start {
-        counter-reset: lst-ctn-kix_list_8-8 0
-    }
-
-    .lst-kix_list_3-2>li {
-        counter-increment: lst-ctn-kix_list_3-2
-    }
-
-    ol.lst-kix_list_10-4.start {
-        counter-reset: lst-ctn-kix_list_10-4 0
-    }
-
-    .lst-kix_list_9-2>li {
-        counter-increment: lst-ctn-kix_list_9-2
-    }
-
-    ol.lst-kix_list_8-7.start {
-        counter-reset: lst-ctn-kix_list_8-7 0
-    }
-
-    .lst-kix_list_5-0>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_1-4>li {
-        counter-increment: lst-ctn-kix_list_1-4
-    }
-
-    ol.lst-kix_list_1-6.start {
-        counter-reset: lst-ctn-kix_list_1-6 0
-    }
-
-    .lst-kix_list_5-3>li:before {
-        content: "\0025cf  "
-    }
-
-    ol.lst-kix_list_9-5.start {
-        counter-reset: lst-ctn-kix_list_9-5 0
-    }
-
-    .lst-kix_list_5-2>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_8-3>li {
-        counter-increment: lst-ctn-kix_list_8-3
-    }
-
-    .lst-kix_list_5-1>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_5-7>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_5-6>li:before {
-        content: "\0025cf  "
-    }
-
-    .lst-kix_list_5-8>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_9-4>li {
-        counter-increment: lst-ctn-kix_list_9-4
-    }
-
-    .lst-kix_list_5-4>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_5-5>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_10-3>li {
-        counter-increment: lst-ctn-kix_list_10-3
-    }
-
-    ol.lst-kix_list_1-0.start {
-        counter-reset: lst-ctn-kix_list_1-0 0
-    }
-
-    .lst-kix_list_6-1>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_6-3>li:before {
-        content: "\0025cf  "
-    }
-
-    .lst-kix_list_6-0>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_6-4>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_3-0>li {
-        counter-increment: lst-ctn-kix_list_3-0
-    }
-
-    ol.lst-kix_list_4-0.start {
-        counter-reset: lst-ctn-kix_list_4-0 0
-    }
-
-    .lst-kix_list_3-6>li {
-        counter-increment: lst-ctn-kix_list_3-6
-    }
-
-    .lst-kix_list_6-2>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_2-5>li {
-        counter-increment: lst-ctn-kix_list_2-5
-    }
-
-    .lst-kix_list_2-8>li {
-        counter-increment: lst-ctn-kix_list_2-8
-    }
-
-    ol.lst-kix_list_3-2.start {
-        counter-reset: lst-ctn-kix_list_3-2 0
-    }
-
-    .lst-kix_list_6-8>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_6-5>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_6-7>li:before {
-        content: "o  "
-    }
-
-    ol.lst-kix_list_2-4.start {
-        counter-reset: lst-ctn-kix_list_2-4 0
-    }
-
-    .lst-kix_list_6-6>li:before {
-        content: "\0025cf  "
-    }
-
-    ol.lst-kix_list_1-3 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-6.start {
-        counter-reset: lst-ctn-kix_list_10-6 0
-    }
-
-    ol.lst-kix_list_1-4 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_2-7>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) "."counter(lst-ctn-kix_list_2-4, decimal) "."counter(lst-ctn-kix_list_2-5, decimal) "."counter(lst-ctn-kix_list_2-6, decimal) "."counter(lst-ctn-kix_list_2-7, decimal) ". "
-    }
-
-    .lst-kix_list_2-7>li {
-        counter-increment: lst-ctn-kix_list_2-7
-    }
-
-    ol.lst-kix_list_1-5 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_7-4>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_7-6>li:before {
-        content: "\0025cf  "
-    }
-
-    ol.lst-kix_list_1-6 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_1-0 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_2-5>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) "."counter(lst-ctn-kix_list_2-4, decimal) "."counter(lst-ctn-kix_list_2-5, decimal) ". "
-    }
-
-    ol.lst-kix_list_1-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_1-2 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_7-2>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_8-6>li {
-        counter-increment: lst-ctn-kix_list_8-6
-    }
-
-    ol.lst-kix_list_10-3.start {
-        counter-reset: lst-ctn-kix_list_10-3 0
-    }
-
-    ol.lst-kix_list_9-4.start {
-        counter-reset: lst-ctn-kix_list_9-4 0
-    }
-
-    ol.lst-kix_list_4-6.start {
-        counter-reset: lst-ctn-kix_list_4-6 0
-    }
-
-    ol.lst-kix_list_9-7 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_10-1>li:before {
-        content: ""counter(lst-ctn-kix_list_10-1, lower-latin) ". "
-    }
-
-    ol.lst-kix_list_9-8 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-0.start {
-        counter-reset: lst-ctn-kix_list_3-0 0
-    }
-
-    ol.lst-kix_list_9-3 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_9-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_9-5 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_7-8>li:before {
-        content: "\0025aa  "
-    }
-
-    ol.lst-kix_list_9-6 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-3.start {
-        counter-reset: lst-ctn-kix_list_4-3 0
-    }
-
-    ol.lst-kix_list_1-7 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_4-7>li {
-        counter-increment: lst-ctn-kix_list_4-7
-    }
-
-    ol.lst-kix_list_9-0 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_1-8 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_9-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_9-2 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_10-7>li:before {
-        content: ""counter(lst-ctn-kix_list_10-7, lower-latin) ". "
-    }
-
-    ol.lst-kix_list_2-5.start {
-        counter-reset: lst-ctn-kix_list_2-5 0
-    }
-
-    .lst-kix_list_10-5>li:before {
-        content: ""counter(lst-ctn-kix_list_10-5, lower-roman) ". "
-    }
-
-    .lst-kix_list_9-8>li {
-        counter-increment: lst-ctn-kix_list_9-8
-    }
-
-    .lst-kix_list_10-3>li:before {
-        content: ""counter(lst-ctn-kix_list_10-3, decimal) ". "
-    }
-
-    .lst-kix_list_2-6>li {
-        counter-increment: lst-ctn-kix_list_2-6
-    }
-
-    .lst-kix_list_4-1>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) ". "
-    }
-
-    .lst-kix_list_9-2>li:before {
-        content: ""counter(lst-ctn-kix_list_9-2, lower-roman) ". "
-    }
-
-    .lst-kix_list_4-3>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) ". "
-    }
-
-    .lst-kix_list_4-5>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) "."counter(lst-ctn-kix_list_4-4, decimal) "."counter(lst-ctn-kix_list_4-5, decimal) ". "
-    }
-
-    .lst-kix_list_1-8>li {
-        counter-increment: lst-ctn-kix_list_1-8
-    }
-
-    .lst-kix_list_10-5>li {
-        counter-increment: lst-ctn-kix_list_10-5
-    }
-
-    ol.lst-kix_list_1-4.start {
-        counter-reset: lst-ctn-kix_list_1-4 0
-    }
-
-    .lst-kix_list_3-5>li {
-        counter-increment: lst-ctn-kix_list_3-5
-    }
-
-    ol.lst-kix_list_1-1.start {
-        counter-reset: lst-ctn-kix_list_1-1 0
-    }
-
-    .lst-kix_list_9-0>li:before {
-        content: ""counter(lst-ctn-kix_list_9-0, decimal) " "
-    }
-
-    .lst-kix_list_3-4>li {
-        counter-increment: lst-ctn-kix_list_3-4
-    }
-
-    ol.lst-kix_list_4-4.start {
-        counter-reset: lst-ctn-kix_list_4-4 0
-    }
-
-    ol.lst-kix_list_10-7 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_9-2.start {
-        counter-reset: lst-ctn-kix_list_9-2 0
-    }
-
-    .lst-kix_list_9-6>li:before {
-        content: ""counter(lst-ctn-kix_list_9-6, decimal) ". "
-    }
-
-    ol.lst-kix_list_10-8 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_9-3>li {
-        counter-increment: lst-ctn-kix_list_9-3
-    }
-
-    ol.lst-kix_list_10-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_9-4>li:before {
-        content: ""counter(lst-ctn-kix_list_9-4, lower-latin) ". "
-    }
-
-    ol.lst-kix_list_10-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-5 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-6 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-0 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_1-3.start {
-        counter-reset: lst-ctn-kix_list_1-3 0
-    }
-
-    ol.lst-kix_list_10-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-8.start {
-        counter-reset: lst-ctn-kix_list_2-8 0
-    }
-
-    ol.lst-kix_list_8-8 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_1-2.start {
-        counter-reset: lst-ctn-kix_list_1-2 0
-    }
-
-    ol.lst-kix_list_8-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-5 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-6 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-7 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-0 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_9-8>li:before {
-        content: ""counter(lst-ctn-kix_list_9-8, lower-roman) ". "
-    }
-
-    ol.lst-kix_list_8-1 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_1-1>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) " "
-    }
-
-    ol.lst-kix_list_8-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_8-5>li {
-        counter-increment: lst-ctn-kix_list_8-5
-    }
-
-    .lst-kix_list_1-3>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) " "
-    }
-
-    .lst-kix_list_10-4>li {
-        counter-increment: lst-ctn-kix_list_10-4
-    }
-
-    ol.lst-kix_list_10-5.start {
-        counter-reset: lst-ctn-kix_list_10-5 0
-    }
-
-    .lst-kix_list_4-8>li {
-        counter-increment: lst-ctn-kix_list_4-8
-    }
-
-    .lst-kix_list_1-7>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) "."counter(lst-ctn-kix_list_1-4, decimal) "."counter(lst-ctn-kix_list_1-5, decimal) "."counter(lst-ctn-kix_list_1-6, decimal) "."counter(lst-ctn-kix_list_1-7, decimal) " "
-    }
-
-    ol.lst-kix_list_2-7.start {
-        counter-reset: lst-ctn-kix_list_2-7 0
-    }
-
-    .lst-kix_list_1-3>li {
-        counter-increment: lst-ctn-kix_list_1-3
-    }
-
-    .lst-kix_list_1-5>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) "."counter(lst-ctn-kix_list_1-4, decimal) "."counter(lst-ctn-kix_list_1-5, decimal) " "
-    }
-
-    ol.lst-kix_list_9-1.start {
-        counter-reset: lst-ctn-kix_list_9-1 0
-    }
-
-    .lst-kix_list_2-1>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) ". "
-    }
-
-    .lst-kix_list_2-3>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) ". "
-    }
-
-    .lst-kix_list_4-2>li {
-        counter-increment: lst-ctn-kix_list_4-2
-    }
-
-    ol.lst-kix_list_3-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-2 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_3-1>li {
-        counter-increment: lst-ctn-kix_list_3-1
-    }
-
-    ol.lst-kix_list_3-3 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-4.start {
-        counter-reset: lst-ctn-kix_list_3-4 0
-    }
-
-    ol.lst-kix_list_3-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-0 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_1-1>li {
-        counter-increment: lst-ctn-kix_list_1-1
-    }
-
-    .lst-kix_list_9-1>li {
-        counter-increment: lst-ctn-kix_list_9-1
-    }
-
-    ol.lst-kix_list_2-6.start {
-        counter-reset: lst-ctn-kix_list_2-6 0
-    }
-
-    .lst-kix_list_3-0>li:before {
-        content: ""counter(lst-ctn-kix_list_3-0, decimal) ") "
-    }
-
-    ul.lst-kix_list_5-7 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_5-8 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_3-1>li:before {
-        content: ""counter(lst-ctn-kix_list_3-1, lower-latin) ") "
-    }
-
-    .lst-kix_list_3-2>li:before {
-        content: ""counter(lst-ctn-kix_list_3-2, lower-roman) ") "
-    }
-
-    ul.lst-kix_list_5-5 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_5-6 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_8-1>li:before {
-        content: ""counter(lst-ctn-kix_list_8-1, lower-latin) ". "
-    }
-
-    ol.lst-kix_list_1-8.start {
-        counter-reset: lst-ctn-kix_list_1-8 0
-    }
-
-    .lst-kix_list_4-0>li {
-        counter-increment: lst-ctn-kix_list_4-0
-    }
-
-    .lst-kix_list_8-2>li:before {
-        content: ""counter(lst-ctn-kix_list_8-2, lower-roman) ". "
-    }
-
-    .lst-kix_list_8-0>li {
-        counter-increment: lst-ctn-kix_list_8-0
-    }
-
-    .lst-kix_list_3-5>li:before {
-        content: "("counter(lst-ctn-kix_list_3-5, lower-roman) ") "
-    }
-
-    ul.lst-kix_list_5-0 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_10-0>li {
-        counter-increment: lst-ctn-kix_list_10-0
-    }
-
-    .lst-kix_list_3-4>li:before {
-        content: "("counter(lst-ctn-kix_list_3-4, lower-latin) ") "
-    }
-
-    ul.lst-kix_list_5-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_3-3>li:before {
-        content: "("counter(lst-ctn-kix_list_3-3, decimal) ") "
-    }
-
-    ol.lst-kix_list_3-5 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_5-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-6 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_5-1 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_8-0>li:before {
-        content: ""counter(lst-ctn-kix_list_8-0, decimal) " "
-    }
-
-    ol.lst-kix_list_3-7 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_5-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_3-8 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_8-7>li:before {
-        content: ""counter(lst-ctn-kix_list_8-7, lower-latin) ". "
-    }
-
-    .lst-kix_list_3-8>li:before {
-        content: ""counter(lst-ctn-kix_list_3-8, lower-roman) ". "
-    }
-
-    .lst-kix_list_8-5>li:before {
-        content: ""counter(lst-ctn-kix_list_8-5, lower-roman) ". "
-    }
-
-    ol.lst-kix_list_10-7.start {
-        counter-reset: lst-ctn-kix_list_10-7 0
-    }
-
-    .lst-kix_list_8-6>li:before {
-        content: ""counter(lst-ctn-kix_list_8-6, decimal) ". "
-    }
-
-    .lst-kix_list_2-0>li {
-        counter-increment: lst-ctn-kix_list_2-0
-    }
-
-    .lst-kix_list_8-3>li:before {
-        content: ""counter(lst-ctn-kix_list_8-3, decimal) ". "
-    }
-
-    .lst-kix_list_3-6>li:before {
-        content: ""counter(lst-ctn-kix_list_3-6, decimal) ". "
-    }
-
-    .lst-kix_list_3-7>li:before {
-        content: ""counter(lst-ctn-kix_list_3-7, lower-latin) ". "
-    }
-
-    .lst-kix_list_8-4>li:before {
-        content: ""counter(lst-ctn-kix_list_8-4, lower-latin) ". "
-    }
-
-    .lst-kix_list_10-2>li {
-        counter-increment: lst-ctn-kix_list_10-2
-    }
-
-    ol.lst-kix_list_8-5.start {
-        counter-reset: lst-ctn-kix_list_8-5 0
-    }
-
-    ol.lst-kix_list_4-2.start {
-        counter-reset: lst-ctn-kix_list_4-2 0
-    }
-
-    ol.lst-kix_list_9-3.start {
-        counter-reset: lst-ctn-kix_list_9-3 0
-    }
-
-    .lst-kix_list_8-8>li:before {
-        content: ""counter(lst-ctn-kix_list_8-8, lower-roman) ". "
-    }
-
-    ol.lst-kix_list_2-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-3 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-4 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-5 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_10-1.start {
-        counter-reset: lst-ctn-kix_list_10-1 0
-    }
-
-    .lst-kix_list_4-4>li {
-        counter-increment: lst-ctn-kix_list_4-4
-    }
-
-    ol.lst-kix_list_2-0 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-1 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_4-8>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) "."counter(lst-ctn-kix_list_4-4, decimal) "."counter(lst-ctn-kix_list_4-5, decimal) "."counter(lst-ctn-kix_list_4-6, decimal) "."counter(lst-ctn-kix_list_4-7, decimal) "."counter(lst-ctn-kix_list_4-8, decimal) ". "
-    }
-
-    .lst-kix_list_4-7>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) "."counter(lst-ctn-kix_list_4-4, decimal) "."counter(lst-ctn-kix_list_4-5, decimal) "."counter(lst-ctn-kix_list_4-6, decimal) "."counter(lst-ctn-kix_list_4-7, decimal) ". "
-    }
-
-    ol.lst-kix_list_4-1.start {
-        counter-reset: lst-ctn-kix_list_4-1 0
-    }
-
-    ol.lst-kix_list_4-8.start {
-        counter-reset: lst-ctn-kix_list_4-8 0
-    }
-
-    .lst-kix_list_8-4>li {
-        counter-increment: lst-ctn-kix_list_8-4
-    }
-
-    ol.lst-kix_list_3-3.start {
-        counter-reset: lst-ctn-kix_list_3-3 0
-    }
-
-    ol.lst-kix_list_10-8.start {
-        counter-reset: lst-ctn-kix_list_10-8 0
-    }
-
-    ol.lst-kix_list_2-6 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-7 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_2-8 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-6.start {
-        counter-reset: lst-ctn-kix_list_8-6 0
-    }
-
-    .lst-kix_list_3-3>li {
-        counter-increment: lst-ctn-kix_list_3-3
-    }
-
-    ol.lst-kix_list_10-2.start {
-        counter-reset: lst-ctn-kix_list_10-2 0
-    }
-
-    ol.lst-kix_list_8-0.start {
-        counter-reset: lst-ctn-kix_list_8-0 0
-    }
-
-    .lst-kix_list_7-0>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_2-2>li {
-        counter-increment: lst-ctn-kix_list_2-2
-    }
-
-    ol.lst-kix_list_4-7.start {
-        counter-reset: lst-ctn-kix_list_4-7 0
-    }
-
-    .lst-kix_list_2-6>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) "."counter(lst-ctn-kix_list_2-4, decimal) "."counter(lst-ctn-kix_list_2-5, decimal) "."counter(lst-ctn-kix_list_2-6, decimal) ". "
-    }
-
-    .lst-kix_list_3-7>li {
-        counter-increment: lst-ctn-kix_list_3-7
-    }
-
-    ol.lst-kix_list_9-7.start {
-        counter-reset: lst-ctn-kix_list_9-7 0
-    }
-
-    .lst-kix_list_2-4>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) "."counter(lst-ctn-kix_list_2-4, decimal) ". "
-    }
-
-    .lst-kix_list_2-8>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) "."counter(lst-ctn-kix_list_2-3, decimal) "."counter(lst-ctn-kix_list_2-4, decimal) "."counter(lst-ctn-kix_list_2-5, decimal) "."counter(lst-ctn-kix_list_2-6, decimal) "."counter(lst-ctn-kix_list_2-7, decimal) "."counter(lst-ctn-kix_list_2-8, decimal) ". "
-    }
-
-    .lst-kix_list_7-1>li:before {
-        content: "o  "
-    }
-
-    .lst-kix_list_7-5>li:before {
-        content: "\0025aa  "
-    }
-
-    .lst-kix_list_9-6>li {
-        counter-increment: lst-ctn-kix_list_9-6
-    }
-
-    .lst-kix_list_7-3>li:before {
-        content: "\0025cf  "
-    }
-
-    ul.lst-kix_list_7-5 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_10-0>li:before {
-        content: ""counter(lst-ctn-kix_list_10-0, decimal) " "
-    }
-
-    ul.lst-kix_list_7-6 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_7-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_9-7>li {
-        counter-increment: lst-ctn-kix_list_9-7
-    }
-
-    ul.lst-kix_list_7-4 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_7-7 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_7-8 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_10-6>li {
-        counter-increment: lst-ctn-kix_list_10-6
-    }
-
-    ul.lst-kix_list_7-1 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_8-7>li {
-        counter-increment: lst-ctn-kix_list_8-7
-    }
-
-    ul.lst-kix_list_7-2 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_1-7>li {
-        counter-increment: lst-ctn-kix_list_1-7
-    }
-
-    ol.lst-kix_list_3-8.start {
-        counter-reset: lst-ctn-kix_list_3-8 0
-    }
-
-    ul.lst-kix_list_7-0 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_7-7>li:before {
-        content: "o  "
-    }
-
-    ol.lst-kix_list_10-0.start {
-        counter-reset: lst-ctn-kix_list_10-0 0
-    }
-
-    ol.lst-kix_list_8-1.start {
-        counter-reset: lst-ctn-kix_list_8-1 0
-    }
-
-    .lst-kix_list_9-5>li {
-        counter-increment: lst-ctn-kix_list_9-5
-    }
-
-    .lst-kix_list_10-4>li:before {
-        content: ""counter(lst-ctn-kix_list_10-4, lower-latin) ". "
-    }
-
-    .lst-kix_list_10-8>li:before {
-        content: ""counter(lst-ctn-kix_list_10-8, lower-roman) ". "
-    }
-
-    .lst-kix_list_4-0>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) ". "
-    }
-
-    .lst-kix_list_3-8>li {
-        counter-increment: lst-ctn-kix_list_3-8
-    }
-
-    .lst-kix_list_10-2>li:before {
-        content: ""counter(lst-ctn-kix_list_10-2, lower-roman) ". "
-    }
-
-    .lst-kix_list_4-6>li {
-        counter-increment: lst-ctn-kix_list_4-6
-    }
-
-    ol.lst-kix_list_1-7.start {
-        counter-reset: lst-ctn-kix_list_1-7 0
-    }
-
-    .lst-kix_list_4-4>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) "."counter(lst-ctn-kix_list_4-4, decimal) ". "
-    }
-
-    ol.lst-kix_list_2-2.start {
-        counter-reset: lst-ctn-kix_list_2-2 0
-    }
-
-    .lst-kix_list_1-5>li {
-        counter-increment: lst-ctn-kix_list_1-5
-    }
-
-    .lst-kix_list_4-2>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) ". "
-    }
-
-    .lst-kix_list_4-6>li:before {
-        content: ""counter(lst-ctn-kix_list_4-0, decimal) "."counter(lst-ctn-kix_list_4-1, decimal) "."counter(lst-ctn-kix_list_4-2, decimal) "."counter(lst-ctn-kix_list_4-3, decimal) "."counter(lst-ctn-kix_list_4-4, decimal) "."counter(lst-ctn-kix_list_4-5, decimal) "."counter(lst-ctn-kix_list_4-6, decimal) ". "
-    }
-
-    .lst-kix_list_9-3>li:before {
-        content: ""counter(lst-ctn-kix_list_9-3, decimal) ". "
-    }
-
-    .lst-kix_list_10-8>li {
-        counter-increment: lst-ctn-kix_list_10-8
-    }
-
-    .lst-kix_list_10-6>li:before {
-        content: ""counter(lst-ctn-kix_list_10-6, decimal) ". "
-    }
-
-    .lst-kix_list_9-1>li:before {
-        content: ""counter(lst-ctn-kix_list_9-1, lower-latin) ". "
-    }
-
-    ol.lst-kix_list_4-0 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_9-7>li:before {
-        content: ""counter(lst-ctn-kix_list_9-7, lower-latin) ". "
-    }
-
-    .lst-kix_list_2-4>li {
-        counter-increment: lst-ctn-kix_list_2-4
-    }
-
-    ol.lst-kix_list_3-6.start {
-        counter-reset: lst-ctn-kix_list_3-6 0
-    }
-
-    .lst-kix_list_9-5>li:before {
-        content: ""counter(lst-ctn-kix_list_9-5, lower-roman) ". "
-    }
-
-    ul.lst-kix_list_6-6 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-7 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-4 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-5 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-8 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-8 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_1-0>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) ". "
-    }
-
-    ol.lst-kix_list_4-4 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-2 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-5 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-3 {
-        list-style-type: none
-    }
-
-    .lst-kix_list_1-2>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) " "
-    }
-
-    ol.lst-kix_list_2-0.start {
-        counter-reset: lst-ctn-kix_list_2-0 0
-    }
-
-    ol.lst-kix_list_4-6 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-0 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_4-7 {
-        list-style-type: none
-    }
-
-    ul.lst-kix_list_6-1 {
-        list-style-type: none
-    }
-
-    ol.lst-kix_list_8-4.start {
-        counter-reset: lst-ctn-kix_list_8-4 0
-    }
-
-    .lst-kix_list_1-4>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) "."counter(lst-ctn-kix_list_1-4, decimal) " "
-    }
-
-    ol.lst-kix_list_3-5.start {
-        counter-reset: lst-ctn-kix_list_3-5 0
-    }
-
-    .lst-kix_list_10-1>li {
-        counter-increment: lst-ctn-kix_list_10-1
-    }
-
-    .lst-kix_list_1-0>li {
-        counter-increment: lst-ctn-kix_list_1-0
-    }
-
-    .lst-kix_list_8-8>li {
-        counter-increment: lst-ctn-kix_list_8-8
-    }
-
-    .lst-kix_list_1-6>li {
-        counter-increment: lst-ctn-kix_list_1-6
-    }
-
-    .lst-kix_list_1-6>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) "."counter(lst-ctn-kix_list_1-4, decimal) "."counter(lst-ctn-kix_list_1-5, decimal) "."counter(lst-ctn-kix_list_1-6, decimal) " "
-    }
-
-    .lst-kix_list_10-7>li {
-        counter-increment: lst-ctn-kix_list_10-7
-    }
-
-    .lst-kix_list_2-0>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) ". "
-    }
-
-    ol.lst-kix_list_2-1.start {
-        counter-reset: lst-ctn-kix_list_2-1 0
-    }
-
-    ol.lst-kix_list_8-3.start {
-        counter-reset: lst-ctn-kix_list_8-3 0
-    }
-
-    .lst-kix_list_4-5>li {
-        counter-increment: lst-ctn-kix_list_4-5
-    }
-
-    ol.lst-kix_list_9-8.start {
-        counter-reset: lst-ctn-kix_list_9-8 0
-    }
-
-    .lst-kix_list_1-8>li:before {
-        content: ""counter(lst-ctn-kix_list_1-0, decimal) "."counter(lst-ctn-kix_list_1-1, decimal) "."counter(lst-ctn-kix_list_1-2, decimal) "."counter(lst-ctn-kix_list_1-3, decimal) "."counter(lst-ctn-kix_list_1-4, decimal) "."counter(lst-ctn-kix_list_1-5, decimal) "."counter(lst-ctn-kix_list_1-6, decimal) "."counter(lst-ctn-kix_list_1-7, decimal) "."counter(lst-ctn-kix_list_1-8, decimal) " "
-    }
-
-    .lst-kix_list_2-2>li:before {
-        content: ""counter(lst-ctn-kix_list_2-0, decimal) "."counter(lst-ctn-kix_list_2-1, decimal) "."counter(lst-ctn-kix_list_2-2, decimal) ". "
-    }
-
-    .lst-kix_list_8-2>li {
-        counter-increment: lst-ctn-kix_list_8-2
-    }
-
-    ol {
-        margin: 0;
-        padding: 0
-    }
-
-    table td,
-    table th {
-        padding: 0
-    }
-
-    .c13 {
-        -webkit-text-decoration-skip: none;
-        color: #000000;
-        text-decoration: underline;
-        vertical-align: baseline;
-        text-decoration-skip-ink: none;
-        font-size: 16pt;
-        font-family: "Calibri";
-        font-style: normal
-    }
-
-    .c2 {
-        margin-left: 36pt;
-        padding-top: 0pt;
-        padding-left: 0pt;
-        padding-bottom: 0pt;
-        line-height: 1.0;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    .c0 {
-        padding-top: 0pt;
-        padding-bottom: 0pt;
-        line-height: 1.0;
-        orphans: 2;
-        widows: 2;
-        text-align: left;
-        height: 11pt
-    }
-
-    .c1 {
-        color: #000000;
-        font-weight: 700;
-        text-decoration: none;
-        vertical-align: baseline;
-        font-size: 11pt;
-        font-family: "Calibri";
-        font-style: normal
-    }
-
-    .c4 {
-        color: #000000;
-        font-weight: 400;
-        text-decoration: none;
-        vertical-align: baseline;
-        font-size: 11pt;
-        font-family: "Calibri";
-        font-style: normal
-    }
-
-    .c3 {
-        padding-top: 0pt;
-        text-indent: 18pt;
-        padding-bottom: 0pt;
-        line-height: 1.0;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    .c6 {
-        padding-top: 0pt;
-        padding-bottom: 0pt;
-        line-height: 1.0;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    .c12 {
-        color: #000000;
-        text-decoration: none;
-        vertical-align: baseline;
-        font-size: 10pt;
-        font-family: "Calibri";
-        font-style: normal
-    }
-
-    .c14 {
-        background-color: #ffffff;
-        max-width: 453.6pt;
-        padding: 70.8pt 70.8pt 70.8pt 70.8pt
-    }
-
-    .c10 {
-        margin-left: 18pt;
-        padding-left: 0pt
-    }
-
-    .c9 {
-        margin-left: 36pt;
-        text-indent: -36pt
-    }
-
-    .c16 {
-        margin-left: 35.4pt;
-        text-indent: -35.4pt
-    }
-
-    .c7 {
-        margin-left: 18pt;
-        text-indent: -18pt
-    }
-
-    .c8 {
-        padding: 0;
-        margin: 0
-    }
-
-    .c15 {
-        margin-left: 0.6pt
-    }
-
-    .c5 {
-        font-weight: 700
-    }
-
-    .c11 {
-        text-indent: 35.4pt
-    }
-
-    .title {
-        font-weight: 700;
-        font-size: 36pt;
-        padding-bottom: 6pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    .subtitle {
-        padding-top: 18pt;
-        color: #666666;
-        font-size: 24pt;
-        padding-bottom: 4pt;
-        font-family: "Georgia";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        font-style: italic;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    li {
-        color: #000000;
-        font-size: 11pt;
-        font-family: "Calibri"
-    }
-
-    p {
-        margin: 0;
-        color: #000000;
-        font-size: 11pt;
-        font-family: "Calibri"
-    }
-
-    h1 {
-        font-weight: 700;
-        font-size: 24pt;
-        padding-bottom: 6pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    h2 {
-        padding-top: 18pt;
-        font-weight: 700;
-        font-size: 18pt;
-        padding-bottom: 4pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    h3 {
-        padding-top: 14pt;
-        color: #000000;
-        font-weight: 700;
-        font-size: 14pt;
-        padding-bottom: 4pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    h4 {
-        padding-top: 12pt;
-        color: #000000;
-        font-weight: 700;
-        font-size: 12pt;
-        padding-bottom: 2pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    h5 {
-        padding-top: 11pt;
-        color: #000000;
-        font-weight: 700;
-        font-size: 11pt;
-        padding-bottom: 2pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
-
-    h6 {
-        padding-top: 10pt;
-        color: #000000;
-        font-weight: 700;
-        font-size: 10pt;
-        padding-bottom: 2pt;
-        font-family: "Calibri";
-        line-height: 1.0791666666666666;
-        page-break-after: avoid;
-        orphans: 2;
-        widows: 2;
-        text-align: left
-    }
+        @import url('https://themes.googleusercontent.com/fonts/css?kit=fpjTOVmNbO4Lz34iLyptLUXza5VhXqVC6o75Eld_V98');
+
+        .lst-kix_list_4-1>li {
+            counter-increment: lst-ctn-kix_list_4-1
+        }
+
+        .lst-kix_list_2-1>li {
+            counter-increment: lst-ctn-kix_list_2-1
+        }
+
+        ol.lst-kix_list_9-0.start {
+            counter-reset: lst-ctn-kix_list_9-0 0
+        }
+
+        .lst-kix_list_8-1>li {
+            counter-increment: lst-ctn-kix_list_8-1
+        }
+
+        ol.lst-kix_list_8-2.start {
+            counter-reset: lst-ctn-kix_list_8-2 0
+        }
+
+        ol.lst-kix_list_3-1.start {
+            counter-reset: lst-ctn-kix_list_3-1 0
+        }
+
+        .lst-kix_list_9-0>li {
+            counter-increment: lst-ctn-kix_list_9-0
+        }
+
+        ol.lst-kix_list_2-3.start {
+            counter-reset: lst-ctn-kix_list_2-3 0
+        }
+
+        ol.lst-kix_list_1-5.start {
+            counter-reset: lst-ctn-kix_list_1-5 0
+        }
+
+        ol.lst-kix_list_9-6.start {
+            counter-reset: lst-ctn-kix_list_9-6 0
+        }
+
+        .lst-kix_list_2-3>li {
+            counter-increment: lst-ctn-kix_list_2-3
+        }
+
+        .lst-kix_list_4-3>li {
+            counter-increment: lst-ctn-kix_list_4-3
+        }
+
+        ol.lst-kix_list_4-5.start {
+            counter-reset: lst-ctn-kix_list_4-5 0
+        }
+
+        .lst-kix_list_1-2>li {
+            counter-increment: lst-ctn-kix_list_1-2
+        }
+
+        ol.lst-kix_list_3-7.start {
+            counter-reset: lst-ctn-kix_list_3-7 0
+        }
+
+        ol.lst-kix_list_8-8.start {
+            counter-reset: lst-ctn-kix_list_8-8 0
+        }
+
+        .lst-kix_list_3-2>li {
+            counter-increment: lst-ctn-kix_list_3-2
+        }
+
+        ol.lst-kix_list_10-4.start {
+            counter-reset: lst-ctn-kix_list_10-4 0
+        }
+
+        .lst-kix_list_9-2>li {
+            counter-increment: lst-ctn-kix_list_9-2
+        }
+
+        ol.lst-kix_list_8-7.start {
+            counter-reset: lst-ctn-kix_list_8-7 0
+        }
+
+        .lst-kix_list_5-0>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_1-4>li {
+            counter-increment: lst-ctn-kix_list_1-4
+        }
+
+        ol.lst-kix_list_1-6.start {
+            counter-reset: lst-ctn-kix_list_1-6 0
+        }
+
+        .lst-kix_list_5-3>li:before {
+            content: "\0025cf  "
+        }
+
+        ol.lst-kix_list_9-5.start {
+            counter-reset: lst-ctn-kix_list_9-5 0
+        }
+
+        .lst-kix_list_5-2>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_8-3>li {
+            counter-increment: lst-ctn-kix_list_8-3
+        }
+
+        .lst-kix_list_5-1>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_5-7>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_5-6>li:before {
+            content: "\0025cf  "
+        }
+
+        .lst-kix_list_5-8>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_9-4>li {
+            counter-increment: lst-ctn-kix_list_9-4
+        }
+
+        .lst-kix_list_5-4>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_5-5>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_10-3>li {
+            counter-increment: lst-ctn-kix_list_10-3
+        }
+
+        ol.lst-kix_list_1-0.start {
+            counter-reset: lst-ctn-kix_list_1-0 0
+        }
+
+        .lst-kix_list_6-1>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_6-3>li:before {
+            content: "\0025cf  "
+        }
+
+        .lst-kix_list_6-0>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_6-4>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_3-0>li {
+            counter-increment: lst-ctn-kix_list_3-0
+        }
+
+        ol.lst-kix_list_4-0.start {
+            counter-reset: lst-ctn-kix_list_4-0 0
+        }
+
+        .lst-kix_list_3-6>li {
+            counter-increment: lst-ctn-kix_list_3-6
+        }
+
+        .lst-kix_list_6-2>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_2-5>li {
+            counter-increment: lst-ctn-kix_list_2-5
+        }
+
+        .lst-kix_list_2-8>li {
+            counter-increment: lst-ctn-kix_list_2-8
+        }
+
+        ol.lst-kix_list_3-2.start {
+            counter-reset: lst-ctn-kix_list_3-2 0
+        }
+
+        .lst-kix_list_6-8>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_6-5>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_6-7>li:before {
+            content: "o  "
+        }
+
+        ol.lst-kix_list_2-4.start {
+            counter-reset: lst-ctn-kix_list_2-4 0
+        }
+
+        .lst-kix_list_6-6>li:before {
+            content: "\0025cf  "
+        }
+
+        ol.lst-kix_list_1-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-6.start {
+            counter-reset: lst-ctn-kix_list_10-6 0
+        }
+
+        ol.lst-kix_list_1-4 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_2-7>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) "." counter(lst-ctn-kix_list_2-4, decimal) "." counter(lst-ctn-kix_list_2-5, decimal) "." counter(lst-ctn-kix_list_2-6, decimal) "." counter(lst-ctn-kix_list_2-7, decimal) ". "
+        }
+
+        .lst-kix_list_2-7>li {
+            counter-increment: lst-ctn-kix_list_2-7
+        }
+
+        ol.lst-kix_list_1-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_7-4>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_7-6>li:before {
+            content: "\0025cf  "
+        }
+
+        ol.lst-kix_list_1-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_1-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_2-5>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) "." counter(lst-ctn-kix_list_2-4, decimal) "." counter(lst-ctn-kix_list_2-5, decimal) ". "
+        }
+
+        ol.lst-kix_list_1-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_1-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_7-2>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_8-6>li {
+            counter-increment: lst-ctn-kix_list_8-6
+        }
+
+        ol.lst-kix_list_10-3.start {
+            counter-reset: lst-ctn-kix_list_10-3 0
+        }
+
+        ol.lst-kix_list_9-4.start {
+            counter-reset: lst-ctn-kix_list_9-4 0
+        }
+
+        ol.lst-kix_list_4-6.start {
+            counter-reset: lst-ctn-kix_list_4-6 0
+        }
+
+        ol.lst-kix_list_9-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_10-1>li:before {
+            content: "" counter(lst-ctn-kix_list_10-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_list_9-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-0.start {
+            counter-reset: lst-ctn-kix_list_3-0 0
+        }
+
+        ol.lst-kix_list_9-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_9-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_9-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_7-8>li:before {
+            content: "\0025aa  "
+        }
+
+        ol.lst-kix_list_9-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-3.start {
+            counter-reset: lst-ctn-kix_list_4-3 0
+        }
+
+        ol.lst-kix_list_1-7 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_4-7>li {
+            counter-increment: lst-ctn-kix_list_4-7
+        }
+
+        ol.lst-kix_list_9-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_1-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_9-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_9-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_10-7>li:before {
+            content: "" counter(lst-ctn-kix_list_10-7, lower-latin) ". "
+        }
+
+        ol.lst-kix_list_2-5.start {
+            counter-reset: lst-ctn-kix_list_2-5 0
+        }
+
+        .lst-kix_list_10-5>li:before {
+            content: "" counter(lst-ctn-kix_list_10-5, lower-roman) ". "
+        }
+
+        .lst-kix_list_9-8>li {
+            counter-increment: lst-ctn-kix_list_9-8
+        }
+
+        .lst-kix_list_10-3>li:before {
+            content: "" counter(lst-ctn-kix_list_10-3, decimal) ". "
+        }
+
+        .lst-kix_list_2-6>li {
+            counter-increment: lst-ctn-kix_list_2-6
+        }
+
+        .lst-kix_list_4-1>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) ". "
+        }
+
+        .lst-kix_list_9-2>li:before {
+            content: "" counter(lst-ctn-kix_list_9-2, lower-roman) ". "
+        }
+
+        .lst-kix_list_4-3>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) ". "
+        }
+
+        .lst-kix_list_4-5>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) "." counter(lst-ctn-kix_list_4-4, decimal) "." counter(lst-ctn-kix_list_4-5, decimal) ". "
+        }
+
+        .lst-kix_list_1-8>li {
+            counter-increment: lst-ctn-kix_list_1-8
+        }
+
+        .lst-kix_list_10-5>li {
+            counter-increment: lst-ctn-kix_list_10-5
+        }
+
+        ol.lst-kix_list_1-4.start {
+            counter-reset: lst-ctn-kix_list_1-4 0
+        }
+
+        .lst-kix_list_3-5>li {
+            counter-increment: lst-ctn-kix_list_3-5
+        }
+
+        ol.lst-kix_list_1-1.start {
+            counter-reset: lst-ctn-kix_list_1-1 0
+        }
+
+        .lst-kix_list_9-0>li:before {
+            content: "" counter(lst-ctn-kix_list_9-0, decimal) " "
+        }
+
+        .lst-kix_list_3-4>li {
+            counter-increment: lst-ctn-kix_list_3-4
+        }
+
+        ol.lst-kix_list_4-4.start {
+            counter-reset: lst-ctn-kix_list_4-4 0
+        }
+
+        ol.lst-kix_list_10-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_9-2.start {
+            counter-reset: lst-ctn-kix_list_9-2 0
+        }
+
+        .lst-kix_list_9-6>li:before {
+            content: "" counter(lst-ctn-kix_list_9-6, decimal) ". "
+        }
+
+        ol.lst-kix_list_10-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_9-3>li {
+            counter-increment: lst-ctn-kix_list_9-3
+        }
+
+        ol.lst-kix_list_10-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_9-4>li:before {
+            content: "" counter(lst-ctn-kix_list_9-4, lower-latin) ". "
+        }
+
+        ol.lst-kix_list_10-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_1-3.start {
+            counter-reset: lst-ctn-kix_list_1-3 0
+        }
+
+        ol.lst-kix_list_10-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-8.start {
+            counter-reset: lst-ctn-kix_list_2-8 0
+        }
+
+        ol.lst-kix_list_8-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_1-2.start {
+            counter-reset: lst-ctn-kix_list_1-2 0
+        }
+
+        ol.lst-kix_list_8-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_9-8>li:before {
+            content: "" counter(lst-ctn-kix_list_9-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_list_8-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_1-1>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) " "
+        }
+
+        ol.lst-kix_list_8-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_8-5>li {
+            counter-increment: lst-ctn-kix_list_8-5
+        }
+
+        .lst-kix_list_1-3>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) " "
+        }
+
+        .lst-kix_list_10-4>li {
+            counter-increment: lst-ctn-kix_list_10-4
+        }
+
+        ol.lst-kix_list_10-5.start {
+            counter-reset: lst-ctn-kix_list_10-5 0
+        }
+
+        .lst-kix_list_4-8>li {
+            counter-increment: lst-ctn-kix_list_4-8
+        }
+
+        .lst-kix_list_1-7>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) "." counter(lst-ctn-kix_list_1-4, decimal) "." counter(lst-ctn-kix_list_1-5, decimal) "." counter(lst-ctn-kix_list_1-6, decimal) "." counter(lst-ctn-kix_list_1-7, decimal) " "
+        }
+
+        ol.lst-kix_list_2-7.start {
+            counter-reset: lst-ctn-kix_list_2-7 0
+        }
+
+        .lst-kix_list_1-3>li {
+            counter-increment: lst-ctn-kix_list_1-3
+        }
+
+        .lst-kix_list_1-5>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) "." counter(lst-ctn-kix_list_1-4, decimal) "." counter(lst-ctn-kix_list_1-5, decimal) " "
+        }
+
+        ol.lst-kix_list_9-1.start {
+            counter-reset: lst-ctn-kix_list_9-1 0
+        }
+
+        .lst-kix_list_2-1>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) ". "
+        }
+
+        .lst-kix_list_2-3>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) ". "
+        }
+
+        .lst-kix_list_4-2>li {
+            counter-increment: lst-ctn-kix_list_4-2
+        }
+
+        ol.lst-kix_list_3-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_3-1>li {
+            counter-increment: lst-ctn-kix_list_3-1
+        }
+
+        ol.lst-kix_list_3-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-4.start {
+            counter-reset: lst-ctn-kix_list_3-4 0
+        }
+
+        ol.lst-kix_list_3-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_1-1>li {
+            counter-increment: lst-ctn-kix_list_1-1
+        }
+
+        .lst-kix_list_9-1>li {
+            counter-increment: lst-ctn-kix_list_9-1
+        }
+
+        ol.lst-kix_list_2-6.start {
+            counter-reset: lst-ctn-kix_list_2-6 0
+        }
+
+        .lst-kix_list_3-0>li:before {
+            content: "" counter(lst-ctn-kix_list_3-0, decimal) ") "
+        }
+
+        ul.lst-kix_list_5-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_5-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_3-1>li:before {
+            content: "" counter(lst-ctn-kix_list_3-1, lower-latin) ") "
+        }
+
+        .lst-kix_list_3-2>li:before {
+            content: "" counter(lst-ctn-kix_list_3-2, lower-roman) ") "
+        }
+
+        ul.lst-kix_list_5-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_5-6 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_8-1>li:before {
+            content: "" counter(lst-ctn-kix_list_8-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_list_1-8.start {
+            counter-reset: lst-ctn-kix_list_1-8 0
+        }
+
+        .lst-kix_list_4-0>li {
+            counter-increment: lst-ctn-kix_list_4-0
+        }
+
+        .lst-kix_list_8-2>li:before {
+            content: "" counter(lst-ctn-kix_list_8-2, lower-roman) ". "
+        }
+
+        .lst-kix_list_8-0>li {
+            counter-increment: lst-ctn-kix_list_8-0
+        }
+
+        .lst-kix_list_3-5>li:before {
+            content: "(" counter(lst-ctn-kix_list_3-5, lower-roman) ") "
+        }
+
+        ul.lst-kix_list_5-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_10-0>li {
+            counter-increment: lst-ctn-kix_list_10-0
+        }
+
+        .lst-kix_list_3-4>li:before {
+            content: "(" counter(lst-ctn-kix_list_3-4, lower-latin) ") "
+        }
+
+        ul.lst-kix_list_5-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_3-3>li:before {
+            content: "(" counter(lst-ctn-kix_list_3-3, decimal) ") "
+        }
+
+        ol.lst-kix_list_3-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_5-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_5-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_8-0>li:before {
+            content: "" counter(lst-ctn-kix_list_8-0, decimal) " "
+        }
+
+        ol.lst-kix_list_3-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_5-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_3-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_8-7>li:before {
+            content: "" counter(lst-ctn-kix_list_8-7, lower-latin) ". "
+        }
+
+        .lst-kix_list_3-8>li:before {
+            content: "" counter(lst-ctn-kix_list_3-8, lower-roman) ". "
+        }
+
+        .lst-kix_list_8-5>li:before {
+            content: "" counter(lst-ctn-kix_list_8-5, lower-roman) ". "
+        }
+
+        ol.lst-kix_list_10-7.start {
+            counter-reset: lst-ctn-kix_list_10-7 0
+        }
+
+        .lst-kix_list_8-6>li:before {
+            content: "" counter(lst-ctn-kix_list_8-6, decimal) ". "
+        }
+
+        .lst-kix_list_2-0>li {
+            counter-increment: lst-ctn-kix_list_2-0
+        }
+
+        .lst-kix_list_8-3>li:before {
+            content: "" counter(lst-ctn-kix_list_8-3, decimal) ". "
+        }
+
+        .lst-kix_list_3-6>li:before {
+            content: "" counter(lst-ctn-kix_list_3-6, decimal) ". "
+        }
+
+        .lst-kix_list_3-7>li:before {
+            content: "" counter(lst-ctn-kix_list_3-7, lower-latin) ". "
+        }
+
+        .lst-kix_list_8-4>li:before {
+            content: "" counter(lst-ctn-kix_list_8-4, lower-latin) ". "
+        }
+
+        .lst-kix_list_10-2>li {
+            counter-increment: lst-ctn-kix_list_10-2
+        }
+
+        ol.lst-kix_list_8-5.start {
+            counter-reset: lst-ctn-kix_list_8-5 0
+        }
+
+        ol.lst-kix_list_4-2.start {
+            counter-reset: lst-ctn-kix_list_4-2 0
+        }
+
+        ol.lst-kix_list_9-3.start {
+            counter-reset: lst-ctn-kix_list_9-3 0
+        }
+
+        .lst-kix_list_8-8>li:before {
+            content: "" counter(lst-ctn-kix_list_8-8, lower-roman) ". "
+        }
+
+        ol.lst-kix_list_2-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-3 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-4 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-5 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_10-1.start {
+            counter-reset: lst-ctn-kix_list_10-1 0
+        }
+
+        .lst-kix_list_4-4>li {
+            counter-increment: lst-ctn-kix_list_4-4
+        }
+
+        ol.lst-kix_list_2-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_4-8>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) "." counter(lst-ctn-kix_list_4-4, decimal) "." counter(lst-ctn-kix_list_4-5, decimal) "." counter(lst-ctn-kix_list_4-6, decimal) "." counter(lst-ctn-kix_list_4-7, decimal) "." counter(lst-ctn-kix_list_4-8, decimal) ". "
+        }
+
+        .lst-kix_list_4-7>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) "." counter(lst-ctn-kix_list_4-4, decimal) "." counter(lst-ctn-kix_list_4-5, decimal) "." counter(lst-ctn-kix_list_4-6, decimal) "." counter(lst-ctn-kix_list_4-7, decimal) ". "
+        }
+
+        ol.lst-kix_list_4-1.start {
+            counter-reset: lst-ctn-kix_list_4-1 0
+        }
+
+        ol.lst-kix_list_4-8.start {
+            counter-reset: lst-ctn-kix_list_4-8 0
+        }
+
+        .lst-kix_list_8-4>li {
+            counter-increment: lst-ctn-kix_list_8-4
+        }
+
+        ol.lst-kix_list_3-3.start {
+            counter-reset: lst-ctn-kix_list_3-3 0
+        }
+
+        ol.lst-kix_list_10-8.start {
+            counter-reset: lst-ctn-kix_list_10-8 0
+        }
+
+        ol.lst-kix_list_2-6 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-7 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_2-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-6.start {
+            counter-reset: lst-ctn-kix_list_8-6 0
+        }
+
+        .lst-kix_list_3-3>li {
+            counter-increment: lst-ctn-kix_list_3-3
+        }
+
+        ol.lst-kix_list_10-2.start {
+            counter-reset: lst-ctn-kix_list_10-2 0
+        }
+
+        ol.lst-kix_list_8-0.start {
+            counter-reset: lst-ctn-kix_list_8-0 0
+        }
+
+        .lst-kix_list_7-0>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_2-2>li {
+            counter-increment: lst-ctn-kix_list_2-2
+        }
+
+        ol.lst-kix_list_4-7.start {
+            counter-reset: lst-ctn-kix_list_4-7 0
+        }
+
+        .lst-kix_list_2-6>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) "." counter(lst-ctn-kix_list_2-4, decimal) "." counter(lst-ctn-kix_list_2-5, decimal) "." counter(lst-ctn-kix_list_2-6, decimal) ". "
+        }
+
+        .lst-kix_list_3-7>li {
+            counter-increment: lst-ctn-kix_list_3-7
+        }
+
+        ol.lst-kix_list_9-7.start {
+            counter-reset: lst-ctn-kix_list_9-7 0
+        }
+
+        .lst-kix_list_2-4>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) "." counter(lst-ctn-kix_list_2-4, decimal) ". "
+        }
+
+        .lst-kix_list_2-8>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) "." counter(lst-ctn-kix_list_2-3, decimal) "." counter(lst-ctn-kix_list_2-4, decimal) "." counter(lst-ctn-kix_list_2-5, decimal) "." counter(lst-ctn-kix_list_2-6, decimal) "." counter(lst-ctn-kix_list_2-7, decimal) "." counter(lst-ctn-kix_list_2-8, decimal) ". "
+        }
+
+        .lst-kix_list_7-1>li:before {
+            content: "o  "
+        }
+
+        .lst-kix_list_7-5>li:before {
+            content: "\0025aa  "
+        }
+
+        .lst-kix_list_9-6>li {
+            counter-increment: lst-ctn-kix_list_9-6
+        }
+
+        .lst-kix_list_7-3>li:before {
+            content: "\0025cf  "
+        }
+
+        ul.lst-kix_list_7-5 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_10-0>li:before {
+            content: "" counter(lst-ctn-kix_list_10-0, decimal) " "
+        }
+
+        ul.lst-kix_list_7-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_7-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_9-7>li {
+            counter-increment: lst-ctn-kix_list_9-7
+        }
+
+        ul.lst-kix_list_7-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_7-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_7-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_10-6>li {
+            counter-increment: lst-ctn-kix_list_10-6
+        }
+
+        ul.lst-kix_list_7-1 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_8-7>li {
+            counter-increment: lst-ctn-kix_list_8-7
+        }
+
+        ul.lst-kix_list_7-2 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_1-7>li {
+            counter-increment: lst-ctn-kix_list_1-7
+        }
+
+        ol.lst-kix_list_3-8.start {
+            counter-reset: lst-ctn-kix_list_3-8 0
+        }
+
+        ul.lst-kix_list_7-0 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_7-7>li:before {
+            content: "o  "
+        }
+
+        ol.lst-kix_list_10-0.start {
+            counter-reset: lst-ctn-kix_list_10-0 0
+        }
+
+        ol.lst-kix_list_8-1.start {
+            counter-reset: lst-ctn-kix_list_8-1 0
+        }
+
+        .lst-kix_list_9-5>li {
+            counter-increment: lst-ctn-kix_list_9-5
+        }
+
+        .lst-kix_list_10-4>li:before {
+            content: "" counter(lst-ctn-kix_list_10-4, lower-latin) ". "
+        }
+
+        .lst-kix_list_10-8>li:before {
+            content: "" counter(lst-ctn-kix_list_10-8, lower-roman) ". "
+        }
+
+        .lst-kix_list_4-0>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) ". "
+        }
+
+        .lst-kix_list_3-8>li {
+            counter-increment: lst-ctn-kix_list_3-8
+        }
+
+        .lst-kix_list_10-2>li:before {
+            content: "" counter(lst-ctn-kix_list_10-2, lower-roman) ". "
+        }
+
+        .lst-kix_list_4-6>li {
+            counter-increment: lst-ctn-kix_list_4-6
+        }
+
+        ol.lst-kix_list_1-7.start {
+            counter-reset: lst-ctn-kix_list_1-7 0
+        }
+
+        .lst-kix_list_4-4>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) "." counter(lst-ctn-kix_list_4-4, decimal) ". "
+        }
+
+        ol.lst-kix_list_2-2.start {
+            counter-reset: lst-ctn-kix_list_2-2 0
+        }
+
+        .lst-kix_list_1-5>li {
+            counter-increment: lst-ctn-kix_list_1-5
+        }
+
+        .lst-kix_list_4-2>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) ". "
+        }
+
+        .lst-kix_list_4-6>li:before {
+            content: "" counter(lst-ctn-kix_list_4-0, decimal) "." counter(lst-ctn-kix_list_4-1, decimal) "." counter(lst-ctn-kix_list_4-2, decimal) "." counter(lst-ctn-kix_list_4-3, decimal) "." counter(lst-ctn-kix_list_4-4, decimal) "." counter(lst-ctn-kix_list_4-5, decimal) "." counter(lst-ctn-kix_list_4-6, decimal) ". "
+        }
+
+        .lst-kix_list_9-3>li:before {
+            content: "" counter(lst-ctn-kix_list_9-3, decimal) ". "
+        }
+
+        .lst-kix_list_10-8>li {
+            counter-increment: lst-ctn-kix_list_10-8
+        }
+
+        .lst-kix_list_10-6>li:before {
+            content: "" counter(lst-ctn-kix_list_10-6, decimal) ". "
+        }
+
+        .lst-kix_list_9-1>li:before {
+            content: "" counter(lst-ctn-kix_list_9-1, lower-latin) ". "
+        }
+
+        ol.lst-kix_list_4-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_9-7>li:before {
+            content: "" counter(lst-ctn-kix_list_9-7, lower-latin) ". "
+        }
+
+        .lst-kix_list_2-4>li {
+            counter-increment: lst-ctn-kix_list_2-4
+        }
+
+        ol.lst-kix_list_3-6.start {
+            counter-reset: lst-ctn-kix_list_3-6 0
+        }
+
+        .lst-kix_list_9-5>li:before {
+            content: "" counter(lst-ctn-kix_list_9-5, lower-roman) ". "
+        }
+
+        ul.lst-kix_list_6-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-8 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-8 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_1-0>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) ". "
+        }
+
+        ol.lst-kix_list_4-4 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-2 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-5 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-3 {
+            list-style-type: none
+        }
+
+        .lst-kix_list_1-2>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) " "
+        }
+
+        ol.lst-kix_list_2-0.start {
+            counter-reset: lst-ctn-kix_list_2-0 0
+        }
+
+        ol.lst-kix_list_4-6 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-0 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_4-7 {
+            list-style-type: none
+        }
+
+        ul.lst-kix_list_6-1 {
+            list-style-type: none
+        }
+
+        ol.lst-kix_list_8-4.start {
+            counter-reset: lst-ctn-kix_list_8-4 0
+        }
+
+        .lst-kix_list_1-4>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) "." counter(lst-ctn-kix_list_1-4, decimal) " "
+        }
+
+        ol.lst-kix_list_3-5.start {
+            counter-reset: lst-ctn-kix_list_3-5 0
+        }
+
+        .lst-kix_list_10-1>li {
+            counter-increment: lst-ctn-kix_list_10-1
+        }
+
+        .lst-kix_list_1-0>li {
+            counter-increment: lst-ctn-kix_list_1-0
+        }
+
+        .lst-kix_list_8-8>li {
+            counter-increment: lst-ctn-kix_list_8-8
+        }
+
+        .lst-kix_list_1-6>li {
+            counter-increment: lst-ctn-kix_list_1-6
+        }
+
+        .lst-kix_list_1-6>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) "." counter(lst-ctn-kix_list_1-4, decimal) "." counter(lst-ctn-kix_list_1-5, decimal) "." counter(lst-ctn-kix_list_1-6, decimal) " "
+        }
+
+        .lst-kix_list_10-7>li {
+            counter-increment: lst-ctn-kix_list_10-7
+        }
+
+        .lst-kix_list_2-0>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) ". "
+        }
+
+        ol.lst-kix_list_2-1.start {
+            counter-reset: lst-ctn-kix_list_2-1 0
+        }
+
+        ol.lst-kix_list_8-3.start {
+            counter-reset: lst-ctn-kix_list_8-3 0
+        }
+
+        .lst-kix_list_4-5>li {
+            counter-increment: lst-ctn-kix_list_4-5
+        }
+
+        ol.lst-kix_list_9-8.start {
+            counter-reset: lst-ctn-kix_list_9-8 0
+        }
+
+        .lst-kix_list_1-8>li:before {
+            content: "" counter(lst-ctn-kix_list_1-0, decimal) "." counter(lst-ctn-kix_list_1-1, decimal) "." counter(lst-ctn-kix_list_1-2, decimal) "." counter(lst-ctn-kix_list_1-3, decimal) "." counter(lst-ctn-kix_list_1-4, decimal) "." counter(lst-ctn-kix_list_1-5, decimal) "." counter(lst-ctn-kix_list_1-6, decimal) "." counter(lst-ctn-kix_list_1-7, decimal) "." counter(lst-ctn-kix_list_1-8, decimal) " "
+        }
+
+        .lst-kix_list_2-2>li:before {
+            content: "" counter(lst-ctn-kix_list_2-0, decimal) "." counter(lst-ctn-kix_list_2-1, decimal) "." counter(lst-ctn-kix_list_2-2, decimal) ". "
+        }
+
+        .lst-kix_list_8-2>li {
+            counter-increment: lst-ctn-kix_list_8-2
+        }
+
+        ol {
+            margin: 0;
+            padding: 0
+        }
+
+        table td,
+        table th {
+            padding: 0
+        }
+
+        .c13 {
+            -webkit-text-decoration-skip: none;
+            color: #000000;
+            text-decoration: underline;
+            vertical-align: baseline;
+            text-decoration-skip-ink: none;
+            font-size: 16pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c2 {
+            margin-left: 36pt;
+            padding-top: 0pt;
+            padding-left: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c0 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+            height: 11pt
+        }
+
+        .c1 {
+            color: #000000;
+            font-weight: 700;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c4 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c3 {
+            padding-top: 0pt;
+            text-indent: 18pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c6 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.0;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .c12 {
+            color: #000000;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 10pt;
+            font-family: "Calibri";
+            font-style: normal
+        }
+
+        .c14 {
+            background-color: #ffffff;
+            max-width: 453.6pt;
+            padding: 70.8pt 70.8pt 70.8pt 70.8pt
+        }
+
+        .c10 {
+            margin-left: 18pt;
+            padding-left: 0pt
+        }
+
+        .c9 {
+            margin-left: 36pt;
+            text-indent: -36pt
+        }
+
+        .c16 {
+            margin-left: 35.4pt;
+            text-indent: -35.4pt
+        }
+
+        .c7 {
+            margin-left: 18pt;
+            text-indent: -18pt
+        }
+
+        .c8 {
+            padding: 0;
+            margin: 0
+        }
+
+        .c15 {
+            margin-left: 0.6pt
+        }
+
+        .c5 {
+            font-weight: 700
+        }
+
+        .c11 {
+            text-indent: 35.4pt
+        }
+
+        .title {
+            font-weight: 700;
+            font-size: 36pt;
+            padding-bottom: 6pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        .subtitle {
+            padding-top: 18pt;
+            color: #666666;
+            font-size: 24pt;
+            padding-bottom: 4pt;
+            font-family: "Georgia";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Calibri"
+        }
+
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Calibri"
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 24pt;
+            padding-bottom: 6pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h2 {
+            padding-top: 18pt;
+            font-weight: 700;
+            font-size: 18pt;
+            padding-bottom: 4pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h3 {
+            padding-top: 14pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h4 {
+            padding-top: 12pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 12pt;
+            padding-bottom: 2pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h5 {
+            padding-top: 11pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 11pt;
+            padding-bottom: 2pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 10pt;
+            color: #000000;
+            font-weight: 700;
+            font-size: 10pt;
+            padding-bottom: 2pt;
+            font-family: "Calibri";
+            line-height: 1.0791666666666666;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
     </style>
 </head>
+
 <body class="w3-content">
     <h1>Privacy-verklaring <?php echo $organisator; ?></h1>
     <p class="c0"><span class="c4"></span>
@@ -3483,4 +3486,5 @@
     <p>&nbsp; </p>
 </body>
 >>>>>>> ef83e72eecde1df5e74048f39a4e89ef042026c5
+
 </html>

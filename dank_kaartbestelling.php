@@ -148,7 +148,7 @@ MESSAGE;
 
 <body class="w3-gray">
     <div class="w3-content w3-white w3-panel w3-padding-bottom">
-        <<<<<<< HEAD <?php echo $message; ?> </div>
+        <?php echo $message; ?> </div>
 </body> ======= <?php echo $message; ?> </div>
 </body> >>>>>>> ef83e72eecde1df5e74048f39a4e89ef042026c5
 

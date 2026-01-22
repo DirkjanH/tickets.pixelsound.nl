@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 User-agent: *
 =======
 User-agent: *

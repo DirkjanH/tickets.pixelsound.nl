@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*
 SQLyog Ultimate v13.2.1 (64 bit)
 MySQL - 10.4.32-MariaDB : Database - horringa_bestel

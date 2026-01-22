@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /*
 Alter Table Statement
 Source : MySQL documentation
