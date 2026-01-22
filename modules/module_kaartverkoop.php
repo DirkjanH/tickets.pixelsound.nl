@@ -193,7 +193,7 @@ if (isset($_POST["submit"]) && $_POST["submit"] == "verzenden") {
       echo "API call failed: " . htmlspecialchars($e->getMessage());
     }
   }
-=======
+
 <?php
 require_once('bestelfuncties.php');
 
