@@ -19,7 +19,7 @@ $t['12_jaar']		= 'aantal kaarten kinderen tot 12 jaar:';
 $t['geen_concert']  = 'Momenteel geen voorverkoop voor concerten';
 $t['niet_prijs']	= '(SVP de gewenste <strong>aantallen</strong> per soort invullen, <strong>niet </strong>de prijs)';
 $t['huisgenoten']   = '';
-$t['werkwijze'] 	= 'Na het verzenden van dit formulier wordt je doorgestuurd naar de betaalpagina. Je kunt betalen met iDeal/Wero of met een creditcard.';
+$t['werkwijze'] 	= 'Na het verzenden van dit formulier wordt je doorgestuurd naar de betaalpagina. Je kunt je bestelde kaarten betalen met iDeal/Wero of met een creditcard.';
 $t['aankondiging']  = 'Ik wil voortaan graag concert-aankondigingen per e-mail ontvangen en ga akkoord met het <a href="' . $privacybeleid . '" target="_blank">privacybeleid</a>';
 $t['vraag_hoe'] 	= 'Hoe wist je van dit concert?';
 $t['kennis'] 		= 'via een kennis';
